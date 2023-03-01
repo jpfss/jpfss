@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/lib/libmul.pdb"
-  "/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/lib/libmul.so"
+  "/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/lib/libbasics.pdb"
+  "/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/lib/libbasics.so"
   "CMakeFiles/mul.dir/src/mul/mul.cpp.o"
   "CMakeFiles/mul.dir/src/mul/mul.cpp.o.d"
 )

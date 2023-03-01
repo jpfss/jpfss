@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/CMakeLists.txt"
-  "CMakeFiles/3.25.1/CMakeCCompiler.cmake"
-  "CMakeFiles/3.25.1/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.25.1/CMakeSystem.cmake"
+  "CMakeFiles/3.25.2/CMakeCCompiler.cmake"
+  "CMakeFiles/3.25.2/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.25.2/CMakeSystem.cmake"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
@@ -46,5 +46,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/add.dir/DependInfo.cmake"
   "CMakeFiles/sub.dir/DependInfo.cmake"
   "CMakeFiles/mul.dir/DependInfo.cmake"
+  "CMakeFiles/basics.dir/DependInfo.cmake"
   "CMakeFiles/main.dir/DependInfo.cmake"
   )

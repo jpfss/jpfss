@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -Dmul_EXPORTS
 
-CXX_INCLUDES = -I/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/./src/add -I/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/./src/sub -I/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/./src/mul
+CXX_INCLUDES = -I/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/./src/add -I/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/./src/sub -I/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/./src/mul -I/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/./src/basics -I/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/./src/main
 
 CXX_FLAGS = -O3 -DNDEBUG -fPIC -std=gnu++11
 

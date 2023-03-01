@@ -156,6 +156,19 @@ mul/fast:
 .PHONY : mul/fast
 
 #=============================================================================
+# Target rules for targets named basics
+
+# Build rule for target.
+basics: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 basics
+.PHONY : basics
+
+# fast build rule for target.
+basics/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basics.dir/build.make CMakeFiles/basics.dir/build
+.PHONY : basics/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -191,6 +204,30 @@ src/add/add.s: src/add/add.cpp.s
 src/add/add.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/add.dir/build.make CMakeFiles/add.dir/src/add/add.cpp.s
 .PHONY : src/add/add.cpp.s
+
+src/basics/Arrays.o: src/basics/Arrays.cpp.o
+.PHONY : src/basics/Arrays.o
+
+# target to build an object file
+src/basics/Arrays.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basics.dir/build.make CMakeFiles/basics.dir/src/basics/Arrays.cpp.o
+.PHONY : src/basics/Arrays.cpp.o
+
+src/basics/Arrays.i: src/basics/Arrays.cpp.i
+.PHONY : src/basics/Arrays.i
+
+# target to preprocess a source file
+src/basics/Arrays.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basics.dir/build.make CMakeFiles/basics.dir/src/basics/Arrays.cpp.i
+.PHONY : src/basics/Arrays.cpp.i
+
+src/basics/Arrays.s: src/basics/Arrays.cpp.s
+.PHONY : src/basics/Arrays.s
+
+# target to generate assembly for a file
+src/basics/Arrays.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basics.dir/build.make CMakeFiles/basics.dir/src/basics/Arrays.cpp.s
+.PHONY : src/basics/Arrays.cpp.s
 
 src/main/main.o: src/main/main.cpp.o
 .PHONY : src/main/main.o
@@ -273,12 +310,16 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... add"
+	@echo "... basics"
 	@echo "... main"
 	@echo "... mul"
 	@echo "... sub"
 	@echo "... src/add/add.o"
 	@echo "... src/add/add.i"
 	@echo "... src/add/add.s"
+	@echo "... src/basics/Arrays.o"
+	@echo "... src/basics/Arrays.i"
+	@echo "... src/basics/Arrays.s"
 	@echo "... src/main/main.o"
 	@echo "... src/main/main.i"
 	@echo "... src/main/main.s"

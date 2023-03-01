@@ -94,7 +94,8 @@ main_EXTERNAL_OBJECTS =
 /home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/bin/main: CMakeFiles/main.dir/build.make
 /home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/bin/main: /home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/lib/libadd.a
 /home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/bin/main: /home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/lib/libsub.a
-/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/bin/main: /home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/lib/libmul.so
+/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/bin/main: /home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/lib/libbasics.so
+/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/bin/main: /home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/lib/libbasics.so
 /home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/bin/main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/bin/main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
