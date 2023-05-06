@@ -11,12 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/src/main/main.cpp" "CMakeFiles/main.dir/src/main/main.cpp.o" "gcc" "CMakeFiles/main.dir/src/main/main.cpp.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/build/CMakeFiles/add.dir/DependInfo.cmake"
-  "/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/build/CMakeFiles/sub.dir/DependInfo.cmake"
-  "/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/build/CMakeFiles/mul.dir/DependInfo.cmake"
-  "/home/jpfss/Work/Project/LearnProjects/Cpp/learning-cpp/build/CMakeFiles/basics.dir/DependInfo.cmake"
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

@@ -39,24 +39,22 @@ SET_TARGET_PROPERTIES(mul PROPERTIES  OUTPUT_NAME "mul")
 SET_TARGET_PROPERTIES(mul PROPERTIES CLEAN_DIRECT_OUTPUT 1)
 
 # 编译basics，生成动态库
-aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR}/src/basics BASICS_SRC_LIST)
-add_library(basics SHARED ${BASICS_SRC_LIST})
+aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR}/src/basis BASIS_SRC_LIST)
+add_library(basis SHARED ${BASIS_SRC_LIST})
 # 修改库名
-SET_TARGET_PROPERTIES(mul PROPERTIES  OUTPUT_NAME "basics")
-SET_TARGET_PROPERTIES(mul PROPERTIES CLEAN_DIRECT_OUTPUT 1)
-
+SET_TARGET_PROPERTIES(basis PROPERTIES  OUTPUT_NAME "basis")
+SET_TARGET_PROPERTIES(basis PROPERTIES CLEAN_DIRECT_OUTPUT 1)
 
 
 # 添加头文件路径，用于编译可执行文件
 include_directories(./src/add
                     ./src/sub
                     ./src/mul
-                    ./src/basics
-                    ./src/main)
+                    ./src/basis)
 
 # 5,指定可执行文件名及源码
 add_executable(main ${CMAKE_CURRENT_SOURCE_DIR}/src/main/main.cpp)
 # 链接所有库
-target_link_libraries(main add sub mul basics)  
+target_link_libraries(main add sub mul basis)  
 
 
