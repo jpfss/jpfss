@@ -1,0 +1,7 @@
+/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles/add.dir
+/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles/sub.dir
+/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles/mul.dir
+/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles/basis.dir
+/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles/main.dir
+/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles/edit_cache.dir
+/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libbasis.so -o lib/libbasis.so CMakeFiles/basis.dir/src/basis/Arrays.cpp.o CMakeFiles/basis.dir/src/basis/Datatype.cpp.o 

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="learning-cpp" InternalType="">
+	<VirtualDirectory Name="src">
+		<VirtualDirectory Name="src">
+			<VirtualDirectory Name="add">
+				<File Name="src/add/add.cpp"/>
+			</VirtualDirectory>
+			<VirtualDirectory Name="basis">
+				<File Name="src/basis/Arrays.cpp"/>
+				<File Name="src/basis/Datatype.cpp"/>
+			</VirtualDirectory>
+			<VirtualDirectory Name="main">
+				<File Name="src/main/main.cpp"/>
+			</VirtualDirectory>
+			<VirtualDirectory Name="mul">
+				<File Name="src/mul/mul.cpp"/>
+			</VirtualDirectory>
+			<VirtualDirectory Name="sub">
+				<File Name="src/sub/sub.cpp"/>
+			</VirtualDirectory>
+		</VirtualDirectory>
+	</VirtualDirectory>
+	<VirtualDirectory Name="include">
+		<VirtualDirectory Name="src">
+			<VirtualDirectory Name="add">
+				<File Name="src/add/add.h"/>
+			</VirtualDirectory>
+			<VirtualDirectory Name="basis">
+				<File Name="src/basis/Datatype.h"/>
+			</VirtualDirectory>
+			<VirtualDirectory Name="mul">
+				<File Name="src/mul/mul.h"/>
+			</VirtualDirectory>
+			<VirtualDirectory Name="sub">
+				<File Name="src/sub/sub.h"/>
+			</VirtualDirectory>
+		</VirtualDirectory>
+	</VirtualDirectory>
+	<Settings Type="">
+		<Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+			<Compiler Options="-g" Required="yes" PreCompiledHeader="">
+				<IncludePath Value="."/>
+			</Compiler>
+			<Linker Options="" Required="yes"/>
+			<ResourceCompiler Options="" Required="no"/>
+			<General OutputFile="bin/$(ProjectName)" IntermediateDirectory="./" Command="./$(ProjectName)" CommandArguments="" WorkingDirectory="bin" PauseExecWhenProcTerminates="yes"/>
+			<Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+				<PostConnectCommands/>
+				<StartupCommands/>
+			</Debugger>
+			<PreBuild/>
+			<PostBuild/>
+			<CustomBuild Enabled="yes">
+				<RebuildCommand>/usr/bin/make -f$(ProjectPath)/Makefile -j 72 clean &amp;&amp; /usr/bin/make -f$(ProjectPath)/Makefile -j 72</RebuildCommand>
+				<CleanCommand>/usr/bin/make -f$(ProjectPath)/Makefile -j 72 clean</CleanCommand>
+				<BuildCommand>/usr/bin/make -f$(ProjectPath)/Makefile -j 72</BuildCommand>
+				<SingleFileCommand>/usr/bin/make -f$(ProjectPath)/Makefile -B $(CurrentFileFullName).o</SingleFileCommand>
+				<PreprocessFileCommand/>
+				<WorkingDirectory>$(WorkspacePath)</WorkingDirectory>
+			</CustomBuild>
+			<AdditionalRules>
+				<CustomPostBuild/>
+				<CustomPreBuild/>
+			</AdditionalRules>
+		</Configuration>
+		<GlobalSettings>
+			<Compiler Options="">
+				<IncludePath Value="."/>
+			</Compiler>
+			<Linker Options="">
+				<LibraryPath Value="."/>
+			</Linker>
+			<ResourceCompiler Options=""/>
+		</GlobalSettings>
+	</Settings>
+</CodeLite_Project>

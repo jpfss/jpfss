@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libsub.a CMakeFiles/sub.dir/src/sub/sub.cpp.o
+/usr/bin/ranlib lib/libsub.a

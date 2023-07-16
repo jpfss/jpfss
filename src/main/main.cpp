@@ -1,17 +1,21 @@
 #include "add.h"
-#include "sub.h"
+#include "add.h"
+#include "Datatype.h"
 #include "mul.h"
+#include "sub.h"
 #include <iostream>
 using namespace std;
 
-int main(){
-    
-    int x = 8;
-    int y = 5;
-    int z = 7;
-    cout << "x=" << x << ", y=" << y << ", z=" << z << endl;
-    cout << "add(x, y)=" << add(x, y) << endl;
-    cout << "sub(x, y)=" << sub(x, y) << endl;
-    cout << "mul(x, y)=" << mul(x, y) << endl;
-    return 0;
+int main() {
+
+  int y = 5;
+  int x = 10;
+  int z = 15;
+  cout << "x=" << x << ", y=" << y << ", z=" << z << endl;
+  cout << "add(x,y)=" << add(x, y) << endl;
+  cout << "sub(x,y)=" << sub(x, y) << endl;
+  cout << "mul(x,y)=" << mul(x, y) << endl;
+  Datatype datatype;
+  datatype.go();
+  return 0;
 }
