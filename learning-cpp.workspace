@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CodeLite_Workspace Name="learning-cpp">
-	<Project Name="learning-cpp" Path="learning-cpp.project" Active="No"/>
-	<BuildMatrix>
-		<WorkspaceConfiguration Name="Release" Selected="yes">
-			<Project Name="learning-cpp" ConfigName="Release"/>
-		</WorkspaceConfiguration>
-	</BuildMatrix>
-</CodeLite_Workspace>

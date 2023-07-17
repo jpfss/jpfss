@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="learning-cpp" />
+		<Option makefile_is_custom="1" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="CMake Files/" />
+		<Build>
+			<Target title="all">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<Option host_application="bin/main" />
+				<Option run_host_application_in_terminal="1" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 all' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="add">
+				<Option output="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/lib/libadd.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="./" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/add" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/sub" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/mul" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 add' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="add/fast">
+				<Option output="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/lib/libadd.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="./" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/add" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/sub" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/mul" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 add/fast' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="sub">
+				<Option output="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/lib/libsub.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="./" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/add" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/sub" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/mul" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 sub' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="sub/fast">
+				<Option output="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/lib/libsub.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="./" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/add" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/sub" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/mul" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 sub/fast' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="mul">
+				<Option output="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/lib/libmul.so" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp" />
+				<Option object_output="./" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/add" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/sub" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/mul" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 mul' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="mul/fast">
+				<Option output="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/lib/libmul.so" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp" />
+				<Option object_output="./" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/add" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/sub" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/mul" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 mul/fast' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="basis">
+				<Option output="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/lib/libbasis.so" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp" />
+				<Option object_output="./" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/add" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/sub" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/mul" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 basis' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="basis/fast">
+				<Option output="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/lib/libbasis.so" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp" />
+				<Option object_output="./" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/add" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/sub" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/mul" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 basis/fast' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/bin/main" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/bin" />
+				<Option object_output="./" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/add" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/sub" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/mul" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 main' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/bin/main" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/bin" />
+				<Option object_output="./" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/add" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/sub" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/mul" />
+					<Add directory="/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 main/fast' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 edit_cache' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 rebuild_cache' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="CMakeLists.txt">
+			<Option virtualFolder="CMake Files/" />
+		</Unit>
+		<Unit filename="src/add/add.cpp">
+			<Option target="add" />
+		</Unit>
+		<Unit filename="src/add/add.h">
+			<Option target="add" />
+		</Unit>
+		<Unit filename="src/basis/Arrays.cpp">
+			<Option target="basis" />
+		</Unit>
+		<Unit filename="src/basis/Datatype.cpp">
+			<Option target="basis" />
+		</Unit>
+		<Unit filename="src/basis/Datatype.h">
+			<Option target="basis" />
+		</Unit>
+		<Unit filename="src/main/main.cpp">
+			<Option target="main" />
+		</Unit>
+		<Unit filename="src/mul/mul.cpp">
+			<Option target="mul" />
+		</Unit>
+		<Unit filename="src/mul/mul.h">
+			<Option target="mul" />
+		</Unit>
+		<Unit filename="src/sub/sub.cpp">
+			<Option target="sub" />
+		</Unit>
+		<Unit filename="src/sub/sub.h">
+			<Option target="sub" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

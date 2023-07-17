@@ -183,6 +183,7 @@ CMakeFiles/basis.dir/src/basis/Arrays.cpp.o: src/basis/Arrays.cpp \
 
 CMakeFiles/basis.dir/src/basis/Datatype.cpp.o: src/basis/Datatype.cpp \
   /usr/include/stdc-predef.h \
+  src/basis/Datatype.h \
   /usr/include/c++/13.1.1/iostream \
   /usr/include/c++/13.1.1/bits/requires_hosted.h \
   /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -359,8 +360,7 @@ CMakeFiles/basis.dir/src/basis/Datatype.cpp.o: src/basis/Datatype.cpp \
   /usr/include/c++/13.1.1/bits/basic_ios.tcc \
   /usr/include/c++/13.1.1/bits/ostream.tcc \
   /usr/include/c++/13.1.1/istream \
-  /usr/include/c++/13.1.1/bits/istream.tcc \
-  src/basis/Datatype.h
+  /usr/include/c++/13.1.1/bits/istream.tcc
 
 
 src/basis/Datatype.h:

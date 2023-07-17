@@ -1,19 +1,18 @@
-#include <iostream>
 #include "Datatype.h"
+#include <iostream>
 using namespace std;
 
-Datatype::Datatype()
-{
-    //ctor
+Datatype::Datatype() {
+  // ctor
 }
 
-Datatype::~Datatype()
-{
-    //dtor
+Datatype::~Datatype() {
+  // dtor
 }
 
 void Datatype::go() {
 
+  cout << "+++++++++++++++++++CPP数据类型长度检查+++++++++++++++++++" << endl;
   cout << "Size of char : " << sizeof(char) << endl;
   cout << "Size of int : " << sizeof(int) << endl;
   cout << "Size of short int : " << sizeof(short int) << endl;
@@ -22,4 +21,3 @@ void Datatype::go() {
   cout << "Size of double : " << sizeof(double) << endl;
   cout << "Size of wchar_t : " << sizeof(wchar_t) << endl;
 }
-
