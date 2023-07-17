@@ -47,8 +47,4 @@ void Datatype::go()
     c = blue;
     cout << " enum color c:" << c << endl;
 
-
-
-
-
 }

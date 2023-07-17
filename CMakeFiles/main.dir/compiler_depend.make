@@ -4,9 +4,9 @@
 CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   /usr/include/stdc-predef.h \
   src/add/add.h \
-  src/basis/Datatype.h \
   src/mul/mul.h \
   src/sub/sub.h \
+  src/basis/Datatype.h \
   /usr/include/c++/13.1.1/iostream \
   /usr/include/c++/13.1.1/bits/requires_hosted.h \
   /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -304,12 +304,6 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/bits/requires_hosted.h:
 
-/usr/include/bits/types/FILE.h:
-
-/usr/include/c++/13.1.1/iostream:
-
-/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
-
 /usr/include/bits/types/struct_tm.h:
 
 src/basis/Datatype.h:
@@ -321,6 +315,12 @@ src/main/main.cpp:
 /usr/include/c++/13.1.1/bits/stl_iterator.h:
 
 /usr/include/time.h:
+
+/usr/include/bits/types/FILE.h:
+
+/usr/include/c++/13.1.1/iostream:
+
+/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
 
 src/add/add.h:
 
