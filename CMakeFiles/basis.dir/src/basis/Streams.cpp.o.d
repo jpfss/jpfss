@@ -1,12 +1,8 @@
-CMakeFiles/main.dir/src/main/main.cpp.o: \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/main/main.cpp \
+CMakeFiles/basis.dir/src/basis/Streams.cpp.o: \
+ /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Streams.cpp \
  /usr/include/stdc-predef.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/add/add.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/mul/mul.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/sub/sub.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Datatype.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Streams.h \
- /usr/include/c++/13.1.1/iostream \
+ /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Streams.h \
+ /usr/include/c++/13.1.1/fstream \
  /usr/include/c++/13.1.1/bits/requires_hosted.h \
  /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -15,7 +11,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: \
  /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
- /usr/include/c++/13.1.1/ostream /usr/include/c++/13.1.1/ios \
+ /usr/include/c++/13.1.1/istream /usr/include/c++/13.1.1/ios \
  /usr/include/c++/13.1.1/iosfwd /usr/include/c++/13.1.1/bits/stringfwd.h \
  /usr/include/c++/13.1.1/bits/memoryfwd.h \
  /usr/include/c++/13.1.1/bits/postypes.h /usr/include/c++/13.1.1/cwchar \
@@ -132,5 +128,10 @@ CMakeFiles/main.dir/src/main/main.cpp.o: \
  /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
  /usr/include/c++/13.1.1/bits/locale_facets.tcc \
  /usr/include/c++/13.1.1/bits/basic_ios.tcc \
- /usr/include/c++/13.1.1/bits/ostream.tcc /usr/include/c++/13.1.1/istream \
- /usr/include/c++/13.1.1/bits/istream.tcc
+ /usr/include/c++/13.1.1/ostream /usr/include/c++/13.1.1/bits/ostream.tcc \
+ /usr/include/c++/13.1.1/bits/istream.tcc \
+ /usr/include/c++/13.1.1/bits/codecvt.h \
+ /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++io.h \
+ /usr/include/c++/13.1.1/bits/fstream.tcc \
+ /usr/include/c++/13.1.1/iostream

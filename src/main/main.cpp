@@ -2,6 +2,7 @@
 #include "mul.h"
 #include "sub.h"
 #include "Datatype.h"
+#include "Streams.h"
 #include <iostream>
 using namespace std;
 
@@ -18,6 +19,9 @@ int main() {
 
   Datatype datatype;
   datatype.go();
+
+  Streams streams;
+  streams.go();
 
   return 0;
 }

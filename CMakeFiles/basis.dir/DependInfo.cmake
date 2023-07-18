@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Arrays.cpp" "CMakeFiles/basis.dir/src/basis/Arrays.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Arrays.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Datatype.cpp" "CMakeFiles/basis.dir/src/basis/Datatype.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Datatype.cpp.o.d"
+  "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Streams.cpp" "CMakeFiles/basis.dir/src/basis/Streams.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Streams.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

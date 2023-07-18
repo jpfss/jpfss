@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/basis.dir/src/basis/Arrays.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/Datatype.cpp.o"
   "CMakeFiles/basis.dir/src/basis/Datatype.cpp.o.d"
+  "CMakeFiles/basis.dir/src/basis/Streams.cpp.o"
+  "CMakeFiles/basis.dir/src/basis/Streams.cpp.o.d"
   "lib/libbasis.pdb"
   "lib/libbasis.so"
 )

@@ -7,6 +7,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   src/mul/mul.h \
   src/sub/sub.h \
   src/basis/Datatype.h \
+  src/basis/Streams.h \
   /usr/include/c++/13.1.1/iostream \
   /usr/include/c++/13.1.1/bits/requires_hosted.h \
   /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -254,9 +255,9 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/bits/stl_construct.h:
 
-/usr/include/bits/waitflags.h:
+/usr/include/bits/select.h:
 
-/usr/include/ctype.h:
+/usr/include/c++/13.1.1/bits/alloc_traits.h:
 
 /usr/include/c++/13.1.1/bits/localefwd.h:
 
@@ -292,8 +293,6 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/ext/atomicity.h:
 
-/usr/include/bits/wordsize.h:
-
 /usr/include/c++/13.1.1/bits/move.h:
 
 /usr/include/c++/13.1.1/bits/exception.h:
@@ -304,23 +303,27 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/bits/requires_hosted.h:
 
-/usr/include/bits/types/struct_tm.h:
-
-src/basis/Datatype.h:
-
-/usr/include/bits/types.h:
-
-src/main/main.cpp:
-
-/usr/include/c++/13.1.1/bits/stl_iterator.h:
-
-/usr/include/time.h:
+/usr/include/bits/types/__sigset_t.h:
 
 /usr/include/bits/types/FILE.h:
 
 /usr/include/c++/13.1.1/iostream:
 
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
+
+/usr/include/bits/types/struct_tm.h:
+
+src/basis/Datatype.h:
+
+/usr/include/bits/types.h:
+
+src/basis/Streams.h:
+
+src/main/main.cpp:
+
+/usr/include/c++/13.1.1/bits/stl_iterator.h:
+
+/usr/include/time.h:
 
 src/add/add.h:
 
@@ -346,11 +349,19 @@ src/mul/mul.h:
 
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
 
+/usr/include/bits/wordsize.h:
+
 /usr/include/gnu/stubs-64.h:
 
 /usr/include/stdc-predef.h:
 
 /usr/include/sys/cdefs.h:
+
+/usr/include/c++/13.1.1/bits/stl_iterator_base_funcs.h:
+
+/usr/include/bits/wchar.h:
+
+src/sub/sub.h:
 
 /usr/include/c++/13.1.1/bits/new_allocator.h:
 
@@ -406,6 +417,10 @@ src/mul/mul.h:
 
 /usr/include/bits/libc-header-start.h:
 
+/usr/include/bits/waitflags.h:
+
+/usr/include/ctype.h:
+
 /usr/include/c++/13.1.1/bits/basic_ios.tcc:
 
 /usr/include/c++/13.1.1/bits/exception_ptr.h:
@@ -423,10 +438,6 @@ src/mul/mul.h:
 /usr/include/features.h:
 
 /usr/include/bits/endianness.h:
-
-/usr/include/bits/select.h:
-
-/usr/include/c++/13.1.1/bits/alloc_traits.h:
 
 /usr/include/asm/errno.h:
 
@@ -483,14 +494,6 @@ src/mul/mul.h:
 /usr/include/bits/setjmp.h:
 
 /usr/include/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/bits/types/__sigset_t.h:
-
-/usr/include/bits/wchar.h:
-
-src/sub/sub.h:
-
-/usr/include/c++/13.1.1/bits/stl_iterator_base_funcs.h:
 
 /usr/include/c++/13.1.1/ext/string_conversions.h:
 
