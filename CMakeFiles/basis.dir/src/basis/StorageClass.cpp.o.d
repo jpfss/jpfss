@@ -1,14 +1,7 @@
-CMakeFiles/main.dir/src/main/main.cpp.o: \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/main/main.cpp \
+CMakeFiles/basis.dir/src/basis/StorageClass.cpp.o: \
+ /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/StorageClass.cpp \
  /usr/include/stdc-predef.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Constants.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Datatype.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/ModifierTypes.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/StorageClass.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Streams.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/add/add.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/mul/mul.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/sub/sub.h \
+ /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/StorageClass.h \
  /usr/include/c++/13.1.1/iostream \
  /usr/include/c++/13.1.1/bits/requires_hosted.h \
  /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -136,4 +129,23 @@ CMakeFiles/main.dir/src/main/main.cpp.o: \
  /usr/include/c++/13.1.1/bits/locale_facets.tcc \
  /usr/include/c++/13.1.1/bits/basic_ios.tcc \
  /usr/include/c++/13.1.1/bits/ostream.tcc /usr/include/c++/13.1.1/istream \
- /usr/include/c++/13.1.1/bits/istream.tcc
+ /usr/include/c++/13.1.1/bits/istream.tcc /usr/include/c++/13.1.1/random \
+ /usr/include/c++/13.1.1/cmath /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/13.1.1/limits \
+ /usr/include/c++/13.1.1/cstdint \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/c++/13.1.1/bits/random.h /usr/include/c++/13.1.1/vector \
+ /usr/include/c++/13.1.1/bits/stl_uninitialized.h \
+ /usr/include/c++/13.1.1/bits/stl_vector.h \
+ /usr/include/c++/13.1.1/bits/stl_bvector.h \
+ /usr/include/c++/13.1.1/bits/vector.tcc \
+ /usr/include/c++/13.1.1/bits/uniform_int_dist.h \
+ /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/opt_random.h \
+ /usr/include/c++/13.1.1/bits/random.tcc /usr/include/c++/13.1.1/numeric \
+ /usr/include/c++/13.1.1/bits/stl_numeric.h

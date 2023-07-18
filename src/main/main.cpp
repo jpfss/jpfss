@@ -1,6 +1,7 @@
 #include "Constants.h"
 #include "Datatype.h"
 #include "ModifierTypes.h"
+#include "StorageClass.h"
 #include "Streams.h"
 #include "add.h"
 #include "mul.h"
@@ -30,6 +31,9 @@ int main() {
 
   ModifierTypes modifierTypes;
   modifierTypes.go();
+
+  StorageClass storageClass;
+  storageClass.go();
 
   return 0;
 }

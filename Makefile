@@ -301,6 +301,30 @@ src/basis/ModifierTypes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/ModifierTypes.cpp.s
 .PHONY : src/basis/ModifierTypes.cpp.s
 
+src/basis/StorageClass.o: src/basis/StorageClass.cpp.o
+.PHONY : src/basis/StorageClass.o
+
+# target to build an object file
+src/basis/StorageClass.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/StorageClass.cpp.o
+.PHONY : src/basis/StorageClass.cpp.o
+
+src/basis/StorageClass.i: src/basis/StorageClass.cpp.i
+.PHONY : src/basis/StorageClass.i
+
+# target to preprocess a source file
+src/basis/StorageClass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/StorageClass.cpp.i
+.PHONY : src/basis/StorageClass.cpp.i
+
+src/basis/StorageClass.s: src/basis/StorageClass.cpp.s
+.PHONY : src/basis/StorageClass.s
+
+# target to generate assembly for a file
+src/basis/StorageClass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/StorageClass.cpp.s
+.PHONY : src/basis/StorageClass.cpp.s
+
 src/basis/Streams.o: src/basis/Streams.cpp.o
 .PHONY : src/basis/Streams.o
 
@@ -425,6 +449,9 @@ help:
 	@echo "... src/basis/ModifierTypes.o"
 	@echo "... src/basis/ModifierTypes.i"
 	@echo "... src/basis/ModifierTypes.s"
+	@echo "... src/basis/StorageClass.o"
+	@echo "... src/basis/StorageClass.i"
+	@echo "... src/basis/StorageClass.s"
 	@echo "... src/basis/Streams.o"
 	@echo "... src/basis/Streams.i"
 	@echo "... src/basis/Streams.s"

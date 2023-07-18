@@ -10,6 +10,7 @@
 				<File Name="src/basis/Constants.cpp"/>
 				<File Name="src/basis/Datatype.cpp"/>
 				<File Name="src/basis/ModifierTypes.cpp"/>
+				<File Name="src/basis/StorageClass.cpp"/>
 				<File Name="src/basis/Streams.cpp"/>
 			</VirtualDirectory>
 			<VirtualDirectory Name="main">
@@ -32,6 +33,7 @@
 				<File Name="src/basis/Constants.h"/>
 				<File Name="src/basis/Datatype.h"/>
 				<File Name="src/basis/ModifierTypes.h"/>
+				<File Name="src/basis/StorageClass.h"/>
 				<File Name="src/basis/Streams.h"/>
 			</VirtualDirectory>
 			<VirtualDirectory Name="mul">
