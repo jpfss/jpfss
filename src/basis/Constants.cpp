@@ -50,6 +50,16 @@ void Constants::go() {
 
   // String Literals
 
+  //"hello, dear"
+  //
+  //"hello, \
+  //
+  //    dear "
+  //
+  //"hello, "
+  //"d"
+  //"ear"
+  //
   // Defining Constants
 
   // The #define Preprocessor
