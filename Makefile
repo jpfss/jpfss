@@ -301,6 +301,30 @@ src/basis/ModifierTypes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/ModifierTypes.cpp.s
 .PHONY : src/basis/ModifierTypes.cpp.s
 
+src/basis/Operators.o: src/basis/Operators.cpp.o
+.PHONY : src/basis/Operators.o
+
+# target to build an object file
+src/basis/Operators.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Operators.cpp.o
+.PHONY : src/basis/Operators.cpp.o
+
+src/basis/Operators.i: src/basis/Operators.cpp.i
+.PHONY : src/basis/Operators.i
+
+# target to preprocess a source file
+src/basis/Operators.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Operators.cpp.i
+.PHONY : src/basis/Operators.cpp.i
+
+src/basis/Operators.s: src/basis/Operators.cpp.s
+.PHONY : src/basis/Operators.s
+
+# target to generate assembly for a file
+src/basis/Operators.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Operators.cpp.s
+.PHONY : src/basis/Operators.cpp.s
+
 src/basis/StorageClass.o: src/basis/StorageClass.cpp.o
 .PHONY : src/basis/StorageClass.o
 
@@ -449,6 +473,9 @@ help:
 	@echo "... src/basis/ModifierTypes.o"
 	@echo "... src/basis/ModifierTypes.i"
 	@echo "... src/basis/ModifierTypes.s"
+	@echo "... src/basis/Operators.o"
+	@echo "... src/basis/Operators.i"
+	@echo "... src/basis/Operators.s"
 	@echo "... src/basis/StorageClass.o"
 	@echo "... src/basis/StorageClass.i"
 	@echo "... src/basis/StorageClass.s"

@@ -1,6 +1,7 @@
 #include "Constants.h"
 #include "Datatype.h"
 #include "ModifierTypes.h"
+#include "Operators.h"
 #include "StorageClass.h"
 #include "Streams.h"
 #include "add.h"
@@ -35,5 +36,7 @@ int main() {
   StorageClass storageClass;
   storageClass.go();
 
+  Operators operators;
+  operators.go();
   return 0;
 }
