@@ -52,4 +52,20 @@ void Streams::go() {
 
   // close the opened file.
   infile.close();
+
+  // File Position Pointer
+  // position to the nth byte of fileObject (assumes ios::beg)
+  int n = 10;
+
+  // position to the nth byte of fileObject (assumes ios::beg)
+  infile.seekg(n);
+
+  // position n bytes forward in fileObject
+  infile.seekg(n, ios::cur);
+
+  // position n bytes back from end of fileObject
+  infile.seekg(n, ios::end);
+
+  // position at end of fileObject
+  infile.seekg(0, ios::end);
 }

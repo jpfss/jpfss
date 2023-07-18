@@ -306,6 +306,8 @@
 		<Unit filename="src/basis/Datatype.h">
 			<Option target="basis" />
 		</Unit>
+		<Unit filename="src/basis/Streams.cpp" />
+		<Unit filename="src/basis/Streams.h" />
 		<Unit filename="src/main/main.cpp">
 			<Option target="main" />
 		</Unit>
