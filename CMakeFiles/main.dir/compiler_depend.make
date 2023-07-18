@@ -6,6 +6,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   src/basis/Constants.h \
   src/basis/Datatype.h \
   src/basis/Decisions.h \
+  src/basis/Func.h \
   src/basis/LoopTypes.h \
   src/basis/ModifierTypes.h \
   src/basis/Operators.h \
@@ -305,11 +306,25 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/bits/stringfwd.h:
 
-/usr/include/c++/13.1.1/bits/cxxabi_init_exception.h:
-
 src/basis/LoopTypes.h:
 
 /usr/include/bits/floatn.h:
+
+/usr/include/bits/types/mbstate_t.h:
+
+/usr/include/bits/floatn-common.h:
+
+src/add/add.h:
+
+/usr/include/bits/stdlib-bsearch.h:
+
+/usr/include/c++/13.1.1/iosfwd:
+
+/usr/include/c++/13.1.1/bits/localefwd.h:
+
+src/basis/ModifierTypes.h:
+
+/usr/include/gnu/stubs-64.h:
 
 src/basis/Operators.h:
 
@@ -329,14 +344,6 @@ src/basis/Operators.h:
 
 /usr/include/c++/13.1.1/iostream:
 
-src/basis/ModifierTypes.h:
-
-/usr/include/gnu/stubs-64.h:
-
-src/add/add.h:
-
-/usr/include/bits/floatn-common.h:
-
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
 
 src/basis/StorageClass.h:
@@ -345,8 +352,6 @@ src/basis/StorageClass.h:
 
 /usr/include/c++/13.1.1/cctype:
 
-/usr/include/c++/13.1.1/bits/char_traits.h:
-
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
 
 /usr/include/bits/types/struct_tm.h:
@@ -354,6 +359,12 @@ src/basis/StorageClass.h:
 src/basis/Datatype.h:
 
 /usr/include/bits/types.h:
+
+/usr/include/c++/13.1.1/bits/cxxabi_init_exception.h:
+
+src/basis/Func.h:
+
+/usr/include/c++/13.1.1/bits/new_allocator.h:
 
 /usr/include/c++/13.1.1/bits/stl_iterator.h:
 
@@ -385,6 +396,12 @@ src/basis/Streams.h:
 
 /usr/include/bits/types/__sigset_t.h:
 
+/usr/include/bits/wchar.h:
+
+src/sub/sub.h:
+
+/usr/include/c++/13.1.1/bits/stl_iterator_base_funcs.h:
+
 /usr/include/c++/13.1.1/bits/nested_exception.h:
 
 /usr/include/c++/13.1.1/bits/requires_hosted.h:
@@ -403,13 +420,11 @@ src/basis/Constants.h:
 
 /usr/include/sys/cdefs.h:
 
-/usr/include/bits/wchar.h:
+/usr/include/c++/13.1.1/bits/memoryfwd.h:
 
-/usr/include/c++/13.1.1/bits/stl_iterator_base_funcs.h:
+/usr/include/c++/13.1.1/ostream:
 
-src/sub/sub.h:
-
-/usr/include/c++/13.1.1/bits/new_allocator.h:
+/usr/include/bits/atomic_wide_counter.h:
 
 /usr/include/bits/pthreadtypes-arch.h:
 
@@ -418,12 +433,6 @@ src/sub/sub.h:
 /usr/include/errno.h:
 
 /usr/include/c++/13.1.1/bits/cpp_type_traits.h:
-
-/usr/include/c++/13.1.1/bits/memoryfwd.h:
-
-/usr/include/c++/13.1.1/ostream:
-
-/usr/include/bits/atomic_wide_counter.h:
 
 /usr/include/c++/13.1.1/bits/hash_bytes.h:
 
@@ -435,13 +444,7 @@ src/sub/sub.h:
 
 /usr/include/c++/13.1.1/bits/allocator.h:
 
-/usr/include/bits/types/mbstate_t.h:
-
-/usr/include/bits/stdlib-bsearch.h:
-
-/usr/include/c++/13.1.1/iosfwd:
-
-/usr/include/c++/13.1.1/bits/localefwd.h:
+/usr/include/c++/13.1.1/bits/char_traits.h:
 
 /usr/include/c++/13.1.1/clocale:
 

@@ -8,6 +8,7 @@ public:
   Func(const Func &other);
   Func &operator=(const Func &other);
   int max(int num1, int num2);
+  int sum(int a, int b = 20);
   void go();
 
 protected:

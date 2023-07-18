@@ -33,6 +33,15 @@ int Func::max(int num1, int num2) {
 
   return result;
 }
+
+int Func::sum(int a, int b) {
+
+  int result;
+  result = a + b;
+
+  return (result);
+}
+
 void Func::go() {
 
   cout << "++++++++++++++++++++++++++CPP's Functions++++++++++++++++++++++++++"
@@ -46,4 +55,16 @@ void Func::go() {
   // calling a function to get max value.
   ret = max(a, b);
   cout << "Max value is : " << ret << endl;
+
+  // Default Values for Parameters
+  // local variable declaration:
+  int result;
+
+  // calling a function to add the values.
+  result = sum(a, b);
+  cout << "Total value is :" << result << endl;
+
+  // calling a function again as follows.
+  result = sum(a);
+  cout << "Total value is :" << result << endl;
 }
