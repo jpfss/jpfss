@@ -9,6 +9,7 @@
 				<File Name="src/basis/Arrays.cpp"/>
 				<File Name="src/basis/Constants.cpp"/>
 				<File Name="src/basis/Datatype.cpp"/>
+				<File Name="src/basis/Decisions.cpp"/>
 				<File Name="src/basis/LoopTypes.cpp"/>
 				<File Name="src/basis/ModifierTypes.cpp"/>
 				<File Name="src/basis/Operators.cpp"/>
@@ -34,6 +35,7 @@
 			<VirtualDirectory Name="basis">
 				<File Name="src/basis/Constants.h"/>
 				<File Name="src/basis/Datatype.h"/>
+				<File Name="src/basis/Decisions.h"/>
 				<File Name="src/basis/LoopTypes.h"/>
 				<File Name="src/basis/ModifierTypes.h"/>
 				<File Name="src/basis/Operators.h"/>

@@ -277,6 +277,30 @@ src/basis/Datatype.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Datatype.cpp.s
 .PHONY : src/basis/Datatype.cpp.s
 
+src/basis/Decisions.o: src/basis/Decisions.cpp.o
+.PHONY : src/basis/Decisions.o
+
+# target to build an object file
+src/basis/Decisions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Decisions.cpp.o
+.PHONY : src/basis/Decisions.cpp.o
+
+src/basis/Decisions.i: src/basis/Decisions.cpp.i
+.PHONY : src/basis/Decisions.i
+
+# target to preprocess a source file
+src/basis/Decisions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Decisions.cpp.i
+.PHONY : src/basis/Decisions.cpp.i
+
+src/basis/Decisions.s: src/basis/Decisions.cpp.s
+.PHONY : src/basis/Decisions.s
+
+# target to generate assembly for a file
+src/basis/Decisions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Decisions.cpp.s
+.PHONY : src/basis/Decisions.cpp.s
+
 src/basis/LoopTypes.o: src/basis/LoopTypes.cpp.o
 .PHONY : src/basis/LoopTypes.o
 
@@ -494,6 +518,9 @@ help:
 	@echo "... src/basis/Datatype.o"
 	@echo "... src/basis/Datatype.i"
 	@echo "... src/basis/Datatype.s"
+	@echo "... src/basis/Decisions.o"
+	@echo "... src/basis/Decisions.i"
+	@echo "... src/basis/Decisions.s"
 	@echo "... src/basis/LoopTypes.o"
 	@echo "... src/basis/LoopTypes.i"
 	@echo "... src/basis/LoopTypes.s"
