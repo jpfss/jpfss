@@ -21,6 +21,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/basis.dir/src/basis/StorageClass.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/Streams.cpp.o"
   "CMakeFiles/basis.dir/src/basis/Streams.cpp.o.d"
+  "CMakeFiles/basis.dir/src/basis/Strings.cpp.o"
+  "CMakeFiles/basis.dir/src/basis/Strings.cpp.o.d"
   "lib/libbasis.pdb"
   "lib/libbasis.so"
 )

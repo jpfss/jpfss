@@ -1,23 +1,8 @@
-CMakeFiles/main.dir/src/main/main.cpp.o: \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/main/main.cpp \
+CMakeFiles/basis.dir/src/basis/Strings.cpp.o: \
+ /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Strings.cpp \
  /usr/include/stdc-predef.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Arrays.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Constants.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Datatype.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Decisions.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Func.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/LoopTypes.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/ModifierTypes.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Numbers.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Operators.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/StorageClass.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Streams.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Strings.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/add/add.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/mul/mul.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/sub/sub.h \
- /usr/include/c++/13.1.1/iostream \
- /usr/include/c++/13.1.1/bits/requires_hosted.h \
+ /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Strings.h \
+ /usr/include/c++/13.1.1/cstring \
  /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -25,19 +10,22 @@ CMakeFiles/main.dir/src/main/main.cpp.o: \
  /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+ /usr/include/string.h /usr/include/bits/libc-header-start.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/stddef.h \
+ /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
+ /usr/include/strings.h /usr/include/c++/13.1.1/iostream \
+ /usr/include/c++/13.1.1/bits/requires_hosted.h \
  /usr/include/c++/13.1.1/ostream /usr/include/c++/13.1.1/ios \
  /usr/include/c++/13.1.1/iosfwd /usr/include/c++/13.1.1/bits/stringfwd.h \
  /usr/include/c++/13.1.1/bits/memoryfwd.h \
  /usr/include/c++/13.1.1/bits/postypes.h /usr/include/c++/13.1.1/cwchar \
- /usr/include/wchar.h /usr/include/bits/libc-header-start.h \
- /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/stddef.h \
+ /usr/include/wchar.h /usr/include/bits/floatn.h \
+ /usr/include/bits/floatn-common.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/stdarg.h \
  /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
  /usr/include/bits/types/mbstate_t.h \
  /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
- /usr/include/bits/types/FILE.h /usr/include/bits/types/locale_t.h \
- /usr/include/bits/types/__locale_t.h /usr/include/c++/13.1.1/exception \
+ /usr/include/bits/types/FILE.h /usr/include/c++/13.1.1/exception \
  /usr/include/c++/13.1.1/bits/exception.h \
  /usr/include/c++/13.1.1/bits/exception_ptr.h \
  /usr/include/c++/13.1.1/bits/exception_defines.h \

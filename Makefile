@@ -469,6 +469,30 @@ src/basis/Streams.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Streams.cpp.s
 .PHONY : src/basis/Streams.cpp.s
 
+src/basis/Strings.o: src/basis/Strings.cpp.o
+.PHONY : src/basis/Strings.o
+
+# target to build an object file
+src/basis/Strings.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Strings.cpp.o
+.PHONY : src/basis/Strings.cpp.o
+
+src/basis/Strings.i: src/basis/Strings.cpp.i
+.PHONY : src/basis/Strings.i
+
+# target to preprocess a source file
+src/basis/Strings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Strings.cpp.i
+.PHONY : src/basis/Strings.cpp.i
+
+src/basis/Strings.s: src/basis/Strings.cpp.s
+.PHONY : src/basis/Strings.s
+
+# target to generate assembly for a file
+src/basis/Strings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Strings.cpp.s
+.PHONY : src/basis/Strings.cpp.s
+
 src/main/main.o: src/main/main.cpp.o
 .PHONY : src/main/main.o
 
@@ -590,6 +614,9 @@ help:
 	@echo "... src/basis/Streams.o"
 	@echo "... src/basis/Streams.i"
 	@echo "... src/basis/Streams.s"
+	@echo "... src/basis/Strings.o"
+	@echo "... src/basis/Strings.i"
+	@echo "... src/basis/Strings.s"
 	@echo "... src/main/main.o"
 	@echo "... src/main/main.i"
 	@echo "... src/main/main.s"

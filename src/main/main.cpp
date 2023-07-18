@@ -9,6 +9,7 @@
 #include "Operators.h"
 #include "StorageClass.h"
 #include "Streams.h"
+#include "Strings.h"
 #include "add.h"
 #include "mul.h"
 #include "sub.h"
@@ -59,5 +60,7 @@ int main() {
   Arrays arrays;
   arrays.go();
 
+  Strings strings;
+  strings.go();
   return 0;
 }
