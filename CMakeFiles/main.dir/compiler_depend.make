@@ -6,6 +6,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   src/basis/Constants.h \
   src/basis/Datatype.h \
   src/basis/ModifierTypes.h \
+  src/basis/Operators.h \
   src/basis/StorageClass.h \
   src/basis/Streams.h \
   src/add/add.h \
@@ -268,6 +269,8 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/bits/basic_string.h:
 
+/usr/include/c++/13.1.1/bits/range_access.h:
+
 /usr/include/c++/13.1.1/bits/localefwd.h:
 
 /usr/include/bits/stdlib-bsearch.h:
@@ -300,17 +303,21 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/bits/stringfwd.h:
 
-/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
+/usr/include/c++/13.1.1/bits/cxxabi_init_exception.h:
 
-/usr/include/bits/types/FILE.h:
-
-/usr/include/c++/13.1.1/iostream:
+/usr/include/bits/floatn.h:
 
 src/add/add.h:
 
 /usr/include/bits/floatn-common.h:
 
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+
+/usr/include/bits/types/FILE.h:
+
+/usr/include/c++/13.1.1/iostream:
+
+/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
 
 src/basis/StorageClass.h:
 
@@ -322,6 +329,8 @@ src/basis/StorageClass.h:
 
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
 
+src/basis/Operators.h:
+
 /usr/include/bits/types/__sigset_t.h:
 
 /usr/include/c++/13.1.1/bits/nested_exception.h:
@@ -331,14 +340,6 @@ src/basis/StorageClass.h:
 src/basis/ModifierTypes.h:
 
 /usr/include/gnu/stubs-64.h:
-
-/usr/include/c++/13.1.1/clocale:
-
-/usr/include/c++/13.1.1/bits/stl_pair.h:
-
-/usr/include/c++/13.1.1/bits/cxxabi_init_exception.h:
-
-/usr/include/bits/floatn.h:
 
 /usr/include/bits/types/struct_tm.h:
 
@@ -433,6 +434,10 @@ src/sub/sub.h:
 /usr/include/sys/types.h:
 
 /usr/include/c++/13.1.1/bits/refwrap.h:
+
+/usr/include/c++/13.1.1/clocale:
+
+/usr/include/c++/13.1.1/bits/stl_pair.h:
 
 /usr/include/bits/locale.h:
 
@@ -561,5 +566,3 @@ src/sub/sub.h:
 /usr/include/bits/timesize.h:
 
 /usr/include/c++/13.1.1/bits/utility.h:
-
-/usr/include/c++/13.1.1/bits/range_access.h:

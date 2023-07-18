@@ -277,6 +277,30 @@ src/basis/Datatype.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Datatype.cpp.s
 .PHONY : src/basis/Datatype.cpp.s
 
+src/basis/LoopTypes.o: src/basis/LoopTypes.cpp.o
+.PHONY : src/basis/LoopTypes.o
+
+# target to build an object file
+src/basis/LoopTypes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/LoopTypes.cpp.o
+.PHONY : src/basis/LoopTypes.cpp.o
+
+src/basis/LoopTypes.i: src/basis/LoopTypes.cpp.i
+.PHONY : src/basis/LoopTypes.i
+
+# target to preprocess a source file
+src/basis/LoopTypes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/LoopTypes.cpp.i
+.PHONY : src/basis/LoopTypes.cpp.i
+
+src/basis/LoopTypes.s: src/basis/LoopTypes.cpp.s
+.PHONY : src/basis/LoopTypes.s
+
+# target to generate assembly for a file
+src/basis/LoopTypes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/LoopTypes.cpp.s
+.PHONY : src/basis/LoopTypes.cpp.s
+
 src/basis/ModifierTypes.o: src/basis/ModifierTypes.cpp.o
 .PHONY : src/basis/ModifierTypes.o
 
@@ -470,6 +494,9 @@ help:
 	@echo "... src/basis/Datatype.o"
 	@echo "... src/basis/Datatype.i"
 	@echo "... src/basis/Datatype.s"
+	@echo "... src/basis/LoopTypes.o"
+	@echo "... src/basis/LoopTypes.i"
+	@echo "... src/basis/LoopTypes.s"
 	@echo "... src/basis/ModifierTypes.o"
 	@echo "... src/basis/ModifierTypes.i"
 	@echo "... src/basis/ModifierTypes.s"

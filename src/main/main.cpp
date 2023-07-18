@@ -1,5 +1,6 @@
 #include "Constants.h"
 #include "Datatype.h"
+#include "LoopTypes.h"
 #include "ModifierTypes.h"
 #include "Operators.h"
 #include "StorageClass.h"
@@ -38,5 +39,8 @@ int main() {
 
   Operators operators;
   operators.go();
+
+  LoopTypes loopTypes;
+  loopTypes.go();
   return 0;
 }
