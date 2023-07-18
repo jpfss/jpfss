@@ -4,6 +4,7 @@
 #include "Func.h"
 #include "LoopTypes.h"
 #include "ModifierTypes.h"
+#include "Numbers.h"
 #include "Operators.h"
 #include "StorageClass.h"
 #include "Streams.h"
@@ -50,5 +51,9 @@ int main() {
 
   Func func;
   func.go();
+
+  Numbers numbers;
+  numbers.go();
+
   return 0;
 }

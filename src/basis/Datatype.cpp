@@ -16,7 +16,7 @@ Datatype::~Datatype()
 void Datatype::go()
 {
 
-    cout << "+++++++++++++++++++CPP数据类型+++++++++++++++++++" << endl;
+    cout << "++++++++++++++++++++++++++CPP's Datatype++++++++++++++++++++++++++" << endl;
 
     cout << "Size of char : " << sizeof(char) << endl;
     cout << "Size of int : " << sizeof(int) << endl;

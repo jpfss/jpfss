@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Func.cpp" "CMakeFiles/basis.dir/src/basis/Func.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Func.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/LoopTypes.cpp" "CMakeFiles/basis.dir/src/basis/LoopTypes.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/LoopTypes.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/ModifierTypes.cpp" "CMakeFiles/basis.dir/src/basis/ModifierTypes.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/ModifierTypes.cpp.o.d"
+  "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Numbers.cpp" "CMakeFiles/basis.dir/src/basis/Numbers.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Numbers.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Operators.cpp" "CMakeFiles/basis.dir/src/basis/Operators.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Operators.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/StorageClass.cpp" "CMakeFiles/basis.dir/src/basis/StorageClass.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/StorageClass.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Streams.cpp" "CMakeFiles/basis.dir/src/basis/Streams.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Streams.cpp.o.d"

@@ -13,6 +13,7 @@
 				<File Name="src/basis/Func.cpp"/>
 				<File Name="src/basis/LoopTypes.cpp"/>
 				<File Name="src/basis/ModifierTypes.cpp"/>
+				<File Name="src/basis/Numbers.cpp"/>
 				<File Name="src/basis/Operators.cpp"/>
 				<File Name="src/basis/StorageClass.cpp"/>
 				<File Name="src/basis/Streams.cpp"/>
@@ -40,6 +41,7 @@
 				<File Name="src/basis/Func.h"/>
 				<File Name="src/basis/LoopTypes.h"/>
 				<File Name="src/basis/ModifierTypes.h"/>
+				<File Name="src/basis/Numbers.h"/>
 				<File Name="src/basis/Operators.h"/>
 				<File Name="src/basis/StorageClass.h"/>
 				<File Name="src/basis/Streams.h"/>
