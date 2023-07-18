@@ -1,5 +1,6 @@
 #include "LoopTypes.h"
 #include <iostream>
+#include <stdio.h>
 using namespace std;
 
 LoopTypes::LoopTypes() {
@@ -25,7 +26,8 @@ void LoopTypes::go() {
 
   cout << "++++++++++++++++++++++++++CPP's Loop++++++++++++++++++++++++++"
        << endl;
-  for (;;) {
-    printf("This loop will run forever.\n");
+  int num = 10;
+  for (int i = 0; i < num; i++) {
+    printf("This loop  run %d times.\n", i);
   }
 }
