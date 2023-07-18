@@ -9,6 +9,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   src/basis/Func.h \
   src/basis/LoopTypes.h \
   src/basis/ModifierTypes.h \
+  src/basis/Numbers.h \
   src/basis/Operators.h \
   src/basis/StorageClass.h \
   src/basis/Streams.h \
@@ -280,8 +281,6 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/bits/refwrap.h:
 
-/usr/include/bits/long-double.h:
-
 /usr/include/c++/13.1.1/type_traits:
 
 /usr/include/c++/13.1.1/new:
@@ -322,15 +321,15 @@ src/add/add.h:
 
 /usr/include/c++/13.1.1/bits/localefwd.h:
 
+/usr/include/c++/13.1.1/bits/hash_bytes.h:
+
+/usr/include/c++/13.1.1/cwchar:
+
+/usr/include/bits/types/time_t.h:
+
 src/basis/ModifierTypes.h:
 
 /usr/include/gnu/stubs-64.h:
-
-src/basis/Operators.h:
-
-/usr/include/c++/13.1.1/bits/invoke.h:
-
-/usr/include/c++/13.1.1/string:
 
 /usr/include/bits/types/__locale_t.h:
 
@@ -344,6 +343,16 @@ src/basis/Operators.h:
 
 /usr/include/c++/13.1.1/iostream:
 
+src/basis/Operators.h:
+
+/usr/include/c++/13.1.1/bits/invoke.h:
+
+/usr/include/c++/13.1.1/string:
+
+src/basis/Numbers.h:
+
+/usr/include/stdc-predef.h:
+
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
 
 src/basis/StorageClass.h:
@@ -353,6 +362,10 @@ src/basis/StorageClass.h:
 /usr/include/c++/13.1.1/cctype:
 
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
+
+/usr/include/c++/13.1.1/bits/allocator.h:
+
+/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/gthr.h:
 
 /usr/include/bits/types/struct_tm.h:
 
@@ -370,14 +383,6 @@ src/basis/Func.h:
 
 /usr/include/time.h:
 
-src/mul/mul.h:
-
-/usr/include/wctype.h:
-
-/usr/include/bits/errno.h:
-
-/usr/include/bits/timex.h:
-
 /usr/include/bits/types/locale_t.h:
 
 /usr/include/c++/13.1.1/bits/locale_classes.h:
@@ -389,6 +394,14 @@ src/mul/mul.h:
 /usr/include/bits/types/wint_t.h:
 
 /usr/include/locale.h:
+
+src/mul/mul.h:
+
+/usr/include/wctype.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/bits/timex.h:
 
 src/main/main.cpp:
 
@@ -402,10 +415,6 @@ src/sub/sub.h:
 
 /usr/include/c++/13.1.1/bits/stl_iterator_base_funcs.h:
 
-/usr/include/c++/13.1.1/bits/nested_exception.h:
-
-/usr/include/c++/13.1.1/bits/requires_hosted.h:
-
 /usr/include/c++/13.1.1/bits/move.h:
 
 src/basis/Constants.h:
@@ -416,8 +425,6 @@ src/basis/Constants.h:
 
 /usr/include/bits/wordsize.h:
 
-/usr/include/stdc-predef.h:
-
 /usr/include/sys/cdefs.h:
 
 /usr/include/c++/13.1.1/bits/memoryfwd.h:
@@ -426,6 +433,12 @@ src/basis/Constants.h:
 
 /usr/include/bits/atomic_wide_counter.h:
 
+/usr/include/bits/long-double.h:
+
+/usr/include/c++/13.1.1/bits/requires_hosted.h:
+
+/usr/include/c++/13.1.1/bits/nested_exception.h:
+
 /usr/include/bits/pthreadtypes-arch.h:
 
 /usr/include/gnu/stubs.h:
@@ -433,16 +446,6 @@ src/basis/Constants.h:
 /usr/include/errno.h:
 
 /usr/include/c++/13.1.1/bits/cpp_type_traits.h:
-
-/usr/include/c++/13.1.1/bits/hash_bytes.h:
-
-/usr/include/c++/13.1.1/cwchar:
-
-/usr/include/bits/types/time_t.h:
-
-/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/gthr.h:
-
-/usr/include/c++/13.1.1/bits/allocator.h:
 
 /usr/include/c++/13.1.1/bits/char_traits.h:
 

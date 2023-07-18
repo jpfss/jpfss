@@ -1,3 +1,4 @@
+#include "Arrays.h"
 #include "Constants.h"
 #include "Datatype.h"
 #include "Decisions.h"
@@ -54,6 +55,9 @@ int main() {
 
   Numbers numbers;
   numbers.go();
+
+  Arrays arrays;
+  arrays.go();
 
   return 0;
 }
