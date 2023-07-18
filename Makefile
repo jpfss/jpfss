@@ -277,6 +277,30 @@ src/basis/Datatype.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Datatype.cpp.s
 .PHONY : src/basis/Datatype.cpp.s
 
+src/basis/ModifierTypes.o: src/basis/ModifierTypes.cpp.o
+.PHONY : src/basis/ModifierTypes.o
+
+# target to build an object file
+src/basis/ModifierTypes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/ModifierTypes.cpp.o
+.PHONY : src/basis/ModifierTypes.cpp.o
+
+src/basis/ModifierTypes.i: src/basis/ModifierTypes.cpp.i
+.PHONY : src/basis/ModifierTypes.i
+
+# target to preprocess a source file
+src/basis/ModifierTypes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/ModifierTypes.cpp.i
+.PHONY : src/basis/ModifierTypes.cpp.i
+
+src/basis/ModifierTypes.s: src/basis/ModifierTypes.cpp.s
+.PHONY : src/basis/ModifierTypes.s
+
+# target to generate assembly for a file
+src/basis/ModifierTypes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/ModifierTypes.cpp.s
+.PHONY : src/basis/ModifierTypes.cpp.s
+
 src/basis/Streams.o: src/basis/Streams.cpp.o
 .PHONY : src/basis/Streams.o
 
@@ -398,6 +422,9 @@ help:
 	@echo "... src/basis/Datatype.o"
 	@echo "... src/basis/Datatype.i"
 	@echo "... src/basis/Datatype.s"
+	@echo "... src/basis/ModifierTypes.o"
+	@echo "... src/basis/ModifierTypes.i"
+	@echo "... src/basis/ModifierTypes.s"
 	@echo "... src/basis/Streams.o"
 	@echo "... src/basis/Streams.i"
 	@echo "... src/basis/Streams.s"

@@ -1,5 +1,6 @@
 #include "Constants.h"
 #include "Datatype.h"
+#include "ModifierTypes.h"
 #include "Streams.h"
 #include "add.h"
 #include "mul.h"
@@ -26,6 +27,9 @@ int main() {
 
   Constants constants;
   constants.go();
+
+  ModifierTypes modifierTypes;
+  modifierTypes.go();
 
   return 0;
 }

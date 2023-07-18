@@ -5,6 +5,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   /usr/include/stdc-predef.h \
   src/basis/Constants.h \
   src/basis/Datatype.h \
+  src/basis/ModifierTypes.h \
   src/basis/Streams.h \
   src/add/add.h \
   src/mul/mul.h \
@@ -264,6 +265,8 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/ext/alloc_traits.h:
 
+/usr/include/c++/13.1.1/bits/basic_string.h:
+
 /usr/include/c++/13.1.1/bits/localefwd.h:
 
 /usr/include/bits/stdlib-bsearch.h:
@@ -298,11 +301,9 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/bits/libc-header-start.h:
 
-/usr/include/c++/13.1.1/bits/nested_exception.h:
+/usr/include/wchar.h:
 
-/usr/include/c++/13.1.1/bits/requires_hosted.h:
-
-/usr/include/bits/types/__sigset_t.h:
+/usr/include/c++/13.1.1/bits/stringfwd.h:
 
 /usr/include/bits/types/FILE.h:
 
@@ -316,11 +317,23 @@ src/add/add.h:
 
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
 
-/usr/include/bits/locale.h:
+/usr/include/bits/types/__sigset_t.h:
 
-/usr/include/wchar.h:
+/usr/include/c++/13.1.1/bits/nested_exception.h:
 
-/usr/include/c++/13.1.1/bits/stringfwd.h:
+/usr/include/c++/13.1.1/bits/requires_hosted.h:
+
+src/basis/ModifierTypes.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/c++/13.1.1/clocale:
+
+/usr/include/c++/13.1.1/bits/stl_pair.h:
+
+/usr/include/c++/13.1.1/bits/cxxabi_init_exception.h:
+
+/usr/include/bits/floatn.h:
 
 /usr/include/bits/types/struct_tm.h:
 
@@ -363,8 +376,6 @@ src/basis/Constants.h:
 /usr/include/bits/types/struct_timespec.h:
 
 /usr/include/bits/wordsize.h:
-
-/usr/include/gnu/stubs-64.h:
 
 /usr/include/stdc-predef.h:
 
@@ -416,13 +427,7 @@ src/sub/sub.h:
 
 /usr/include/c++/13.1.1/bits/refwrap.h:
 
-/usr/include/c++/13.1.1/clocale:
-
-/usr/include/c++/13.1.1/bits/stl_pair.h:
-
-/usr/include/c++/13.1.1/bits/cxxabi_init_exception.h:
-
-/usr/include/bits/floatn.h:
+/usr/include/bits/locale.h:
 
 /usr/include/bits/waitflags.h:
 
@@ -520,9 +525,9 @@ src/sub/sub.h:
 
 /usr/include/c++/13.1.1/bits/cxxabi_forced.h:
 
-/usr/include/c++/13.1.1/ios:
-
 /usr/include/c++/13.1.1/bits/postypes.h:
+
+/usr/include/c++/13.1.1/ios:
 
 /usr/include/c++/13.1.1/bits/functexcept.h:
 
@@ -555,5 +560,3 @@ src/sub/sub.h:
 /usr/include/c++/13.1.1/cctype:
 
 /usr/include/c++/13.1.1/initializer_list:
-
-/usr/include/c++/13.1.1/bits/basic_string.h:

@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Arrays.cpp" "CMakeFiles/basis.dir/src/basis/Arrays.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Arrays.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Constants.cpp" "CMakeFiles/basis.dir/src/basis/Constants.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Constants.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Datatype.cpp" "CMakeFiles/basis.dir/src/basis/Datatype.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Datatype.cpp.o.d"
+  "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/ModifierTypes.cpp" "CMakeFiles/basis.dir/src/basis/ModifierTypes.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/ModifierTypes.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Streams.cpp" "CMakeFiles/basis.dir/src/basis/Streams.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Streams.cpp.o.d"
   )
 
