@@ -229,6 +229,30 @@ src/basis/Arrays.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Arrays.cpp.s
 .PHONY : src/basis/Arrays.cpp.s
 
+src/basis/Constants.o: src/basis/Constants.cpp.o
+.PHONY : src/basis/Constants.o
+
+# target to build an object file
+src/basis/Constants.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Constants.cpp.o
+.PHONY : src/basis/Constants.cpp.o
+
+src/basis/Constants.i: src/basis/Constants.cpp.i
+.PHONY : src/basis/Constants.i
+
+# target to preprocess a source file
+src/basis/Constants.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Constants.cpp.i
+.PHONY : src/basis/Constants.cpp.i
+
+src/basis/Constants.s: src/basis/Constants.cpp.s
+.PHONY : src/basis/Constants.s
+
+# target to generate assembly for a file
+src/basis/Constants.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Constants.cpp.s
+.PHONY : src/basis/Constants.cpp.s
+
 src/basis/Datatype.o: src/basis/Datatype.cpp.o
 .PHONY : src/basis/Datatype.o
 
@@ -368,6 +392,9 @@ help:
 	@echo "... src/basis/Arrays.o"
 	@echo "... src/basis/Arrays.i"
 	@echo "... src/basis/Arrays.s"
+	@echo "... src/basis/Constants.o"
+	@echo "... src/basis/Constants.i"
+	@echo "... src/basis/Constants.s"
 	@echo "... src/basis/Datatype.o"
 	@echo "... src/basis/Datatype.i"
 	@echo "... src/basis/Datatype.s"

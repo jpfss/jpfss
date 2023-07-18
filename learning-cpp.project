@@ -7,6 +7,7 @@
 			</VirtualDirectory>
 			<VirtualDirectory Name="basis">
 				<File Name="src/basis/Arrays.cpp"/>
+				<File Name="src/basis/Constants.cpp"/>
 				<File Name="src/basis/Datatype.cpp"/>
 				<File Name="src/basis/Streams.cpp"/>
 			</VirtualDirectory>
@@ -27,6 +28,7 @@
 				<File Name="src/add/add.h"/>
 			</VirtualDirectory>
 			<VirtualDirectory Name="basis">
+				<File Name="src/basis/Constants.h"/>
 				<File Name="src/basis/Datatype.h"/>
 				<File Name="src/basis/Streams.h"/>
 			</VirtualDirectory>

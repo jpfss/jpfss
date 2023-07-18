@@ -1,8 +1,9 @@
+#include "Constants.h"
+#include "Datatype.h"
+#include "Streams.h"
 #include "add.h"
 #include "mul.h"
 #include "sub.h"
-#include "Datatype.h"
-#include "Streams.h"
 #include <iostream>
 using namespace std;
 
@@ -22,6 +23,9 @@ int main() {
 
   Streams streams;
   streams.go();
+
+  Constants constants;
+  constants.go();
 
   return 0;
 }

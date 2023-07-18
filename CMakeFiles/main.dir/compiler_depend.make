@@ -3,11 +3,12 @@
 
 CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   /usr/include/stdc-predef.h \
+  src/basis/Constants.h \
+  src/basis/Datatype.h \
+  src/basis/Streams.h \
   src/add/add.h \
   src/mul/mul.h \
   src/sub/sub.h \
-  src/basis/Datatype.h \
-  src/basis/Streams.h \
   /usr/include/c++/13.1.1/iostream \
   /usr/include/c++/13.1.1/bits/requires_hosted.h \
   /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -259,6 +260,10 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/bits/alloc_traits.h:
 
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/c++/13.1.1/ext/alloc_traits.h:
+
 /usr/include/c++/13.1.1/bits/localefwd.h:
 
 /usr/include/bits/stdlib-bsearch.h:
@@ -287,17 +292,11 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/bits/types/__FILE.h:
 
-/usr/include/bits/types/locale_t.h:
+/usr/include/c++/13.1.1/bits/basic_string.tcc:
 
-/usr/include/c++/13.1.1/bits/locale_classes.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/stdarg.h:
 
-/usr/include/c++/13.1.1/ext/atomicity.h:
-
-/usr/include/c++/13.1.1/bits/move.h:
-
-/usr/include/c++/13.1.1/bits/exception.h:
-
-/usr/include/bits/types/struct_timespec.h:
+/usr/include/bits/libc-header-start.h:
 
 /usr/include/c++/13.1.1/bits/nested_exception.h:
 
@@ -310,6 +309,18 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 /usr/include/c++/13.1.1/iostream:
 
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
+
+src/add/add.h:
+
+/usr/include/bits/floatn-common.h:
+
+/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+
+/usr/include/bits/locale.h:
+
+/usr/include/wchar.h:
+
+/usr/include/c++/13.1.1/bits/stringfwd.h:
 
 /usr/include/bits/types/struct_tm.h:
 
@@ -325,18 +336,6 @@ src/main/main.cpp:
 
 /usr/include/time.h:
 
-src/add/add.h:
-
-/usr/include/bits/floatn-common.h:
-
-/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
-
-/usr/include/bits/locale.h:
-
-/usr/include/wchar.h:
-
-/usr/include/c++/13.1.1/bits/stringfwd.h:
-
 src/mul/mul.h:
 
 /usr/include/wctype.h:
@@ -345,9 +344,23 @@ src/mul/mul.h:
 
 /usr/include/bits/timex.h:
 
+/usr/include/bits/types/locale_t.h:
+
+/usr/include/c++/13.1.1/bits/locale_classes.h:
+
+/usr/include/c++/13.1.1/ext/atomicity.h:
+
 /usr/include/c++/13.1.1/bits/char_traits.h:
 
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
+
+/usr/include/c++/13.1.1/bits/move.h:
+
+src/basis/Constants.h:
+
+/usr/include/c++/13.1.1/bits/exception.h:
+
+/usr/include/bits/types/struct_timespec.h:
 
 /usr/include/bits/wordsize.h:
 
@@ -411,12 +424,6 @@ src/sub/sub.h:
 
 /usr/include/bits/floatn.h:
 
-/usr/include/c++/13.1.1/bits/basic_string.tcc:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/stdarg.h:
-
-/usr/include/bits/libc-header-start.h:
-
 /usr/include/bits/waitflags.h:
 
 /usr/include/ctype.h:
@@ -438,6 +445,10 @@ src/sub/sub.h:
 /usr/include/features.h:
 
 /usr/include/bits/endianness.h:
+
+/usr/include/c++/13.1.1/bits/ptr_traits.h:
+
+/usr/include/c++/13.1.1/bits/ios_base.h:
 
 /usr/include/asm/errno.h:
 
@@ -525,10 +536,6 @@ src/sub/sub.h:
 
 /usr/include/c++/13.1.1/bits/stl_function.h:
 
-/usr/include/c++/13.1.1/bits/ios_base.h:
-
-/usr/include/c++/13.1.1/bits/ptr_traits.h:
-
 /usr/include/c++/13.1.1/backward/binders.h:
 
 /usr/include/c++/13.1.1/bits/stl_algobase.h:
@@ -550,7 +557,3 @@ src/sub/sub.h:
 /usr/include/c++/13.1.1/initializer_list:
 
 /usr/include/c++/13.1.1/bits/basic_string.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/c++/13.1.1/ext/alloc_traits.h:

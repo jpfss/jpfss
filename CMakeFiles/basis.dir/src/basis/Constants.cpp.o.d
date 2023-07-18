@@ -1,12 +1,7 @@
-CMakeFiles/main.dir/src/main/main.cpp.o: \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/main/main.cpp \
+CMakeFiles/basis.dir/src/basis/Constants.cpp.o: \
+ /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Constants.cpp \
  /usr/include/stdc-predef.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Constants.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Datatype.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Streams.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/add/add.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/mul/mul.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/sub/sub.h \
+ /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Constants.h \
  /usr/include/c++/13.1.1/iostream \
  /usr/include/c++/13.1.1/bits/requires_hosted.h \
  /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
