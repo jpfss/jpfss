@@ -6,6 +6,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   src/basis/Constants.h \
   src/basis/Datatype.h \
   src/basis/ModifierTypes.h \
+  src/basis/StorageClass.h \
   src/basis/Streams.h \
   src/add/add.h \
   src/mul/mul.h \
@@ -277,12 +278,6 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/type_traits:
 
-/usr/include/locale.h:
-
-/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
-
-/usr/include/bits/types/wint_t.h:
-
 /usr/include/c++/13.1.1/new:
 
 /usr/include/bits/endian.h:
@@ -305,17 +300,27 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/bits/stringfwd.h:
 
+/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
+
 /usr/include/bits/types/FILE.h:
 
 /usr/include/c++/13.1.1/iostream:
-
-/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
 
 src/add/add.h:
 
 /usr/include/bits/floatn-common.h:
 
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+
+src/basis/StorageClass.h:
+
+/usr/include/c++/13.1.1/initializer_list:
+
+/usr/include/c++/13.1.1/cctype:
+
+/usr/include/c++/13.1.1/bits/char_traits.h:
+
+/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
 
 /usr/include/bits/types/__sigset_t.h:
 
@@ -363,9 +368,11 @@ src/mul/mul.h:
 
 /usr/include/c++/13.1.1/ext/atomicity.h:
 
-/usr/include/c++/13.1.1/bits/char_traits.h:
+/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
 
-/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
+/usr/include/bits/types/wint_t.h:
+
+/usr/include/locale.h:
 
 /usr/include/c++/13.1.1/bits/move.h:
 
@@ -556,7 +563,3 @@ src/sub/sub.h:
 /usr/include/c++/13.1.1/bits/utility.h:
 
 /usr/include/c++/13.1.1/bits/range_access.h:
-
-/usr/include/c++/13.1.1/cctype:
-
-/usr/include/c++/13.1.1/initializer_list:
