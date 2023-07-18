@@ -301,6 +301,30 @@ src/basis/Decisions.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Decisions.cpp.s
 .PHONY : src/basis/Decisions.cpp.s
 
+src/basis/Func.o: src/basis/Func.cpp.o
+.PHONY : src/basis/Func.o
+
+# target to build an object file
+src/basis/Func.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Func.cpp.o
+.PHONY : src/basis/Func.cpp.o
+
+src/basis/Func.i: src/basis/Func.cpp.i
+.PHONY : src/basis/Func.i
+
+# target to preprocess a source file
+src/basis/Func.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Func.cpp.i
+.PHONY : src/basis/Func.cpp.i
+
+src/basis/Func.s: src/basis/Func.cpp.s
+.PHONY : src/basis/Func.s
+
+# target to generate assembly for a file
+src/basis/Func.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Func.cpp.s
+.PHONY : src/basis/Func.cpp.s
+
 src/basis/LoopTypes.o: src/basis/LoopTypes.cpp.o
 .PHONY : src/basis/LoopTypes.o
 
@@ -521,6 +545,9 @@ help:
 	@echo "... src/basis/Decisions.o"
 	@echo "... src/basis/Decisions.i"
 	@echo "... src/basis/Decisions.s"
+	@echo "... src/basis/Func.o"
+	@echo "... src/basis/Func.i"
+	@echo "... src/basis/Func.s"
 	@echo "... src/basis/LoopTypes.o"
 	@echo "... src/basis/LoopTypes.i"
 	@echo "... src/basis/LoopTypes.s"

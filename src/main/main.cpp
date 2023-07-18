@@ -1,6 +1,7 @@
 #include "Constants.h"
 #include "Datatype.h"
 #include "Decisions.h"
+#include "Func.h"
 #include "LoopTypes.h"
 #include "ModifierTypes.h"
 #include "Operators.h"
@@ -46,5 +47,8 @@ int main() {
 
   Decisions decisions;
   decisions.go();
+
+  Func func;
+  func.go();
   return 0;
 }

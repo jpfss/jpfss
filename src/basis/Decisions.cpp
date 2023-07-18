@@ -23,6 +23,5 @@ Decisions &Decisions::operator=(const Decisions &rhs) {
 
 void Decisions::go() {
 
-  cout << "++++++++++++++++++++++++++CPP's Decisions++++++++++++++++++++++++++"
-       << endl;
+  cout << "++++++++++++++++++++++++++CPP's Decisions++++++++++++++++++++++++++" << endl;
 }
