@@ -14,6 +14,7 @@
 #include "StorageClass.h"
 #include "Streams.h"
 #include "Strings.h"
+#include "Structures.h"
 #include "add.h"
 #include "mul.h"
 #include "sub.h"
@@ -78,6 +79,9 @@ int main() {
 
   IO io;
   io.go();
+
+  Structures structures;
+  structures.go();
 
   return 0;
 }

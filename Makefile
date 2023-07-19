@@ -589,6 +589,30 @@ src/basis/Strings.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Strings.cpp.s
 .PHONY : src/basis/Strings.cpp.s
 
+src/basis/Structures.o: src/basis/Structures.cpp.o
+.PHONY : src/basis/Structures.o
+
+# target to build an object file
+src/basis/Structures.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Structures.cpp.o
+.PHONY : src/basis/Structures.cpp.o
+
+src/basis/Structures.i: src/basis/Structures.cpp.i
+.PHONY : src/basis/Structures.i
+
+# target to preprocess a source file
+src/basis/Structures.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Structures.cpp.i
+.PHONY : src/basis/Structures.cpp.i
+
+src/basis/Structures.s: src/basis/Structures.cpp.s
+.PHONY : src/basis/Structures.s
+
+# target to generate assembly for a file
+src/basis/Structures.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Structures.cpp.s
+.PHONY : src/basis/Structures.cpp.s
+
 src/main/main.o: src/main/main.cpp.o
 .PHONY : src/main/main.o
 
@@ -725,6 +749,9 @@ help:
 	@echo "... src/basis/Strings.o"
 	@echo "... src/basis/Strings.i"
 	@echo "... src/basis/Strings.s"
+	@echo "... src/basis/Structures.o"
+	@echo "... src/basis/Structures.i"
+	@echo "... src/basis/Structures.s"
 	@echo "... src/main/main.o"
 	@echo "... src/main/main.i"
 	@echo "... src/main/main.s"

@@ -22,6 +22,7 @@
 				<File Name="src/basis/StorageClass.cpp"/>
 				<File Name="src/basis/Streams.cpp"/>
 				<File Name="src/basis/Strings.cpp"/>
+				<File Name="src/basis/Structures.cpp"/>
 			</VirtualDirectory>
 			<VirtualDirectory Name="main">
 				<File Name="src/main/main.cpp"/>
@@ -56,6 +57,7 @@
 				<File Name="src/basis/StorageClass.h"/>
 				<File Name="src/basis/Streams.h"/>
 				<File Name="src/basis/Strings.h"/>
+				<File Name="src/basis/Structures.h"/>
 			</VirtualDirectory>
 			<VirtualDirectory Name="mul">
 				<File Name="src/mul/mul.h"/>

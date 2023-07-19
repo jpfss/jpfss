@@ -9,6 +9,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   src/basis/DateTime.h \
   src/basis/Decisions.h \
   src/basis/Func.h \
+  src/basis/IO.h \
   src/basis/LoopTypes.h \
   src/basis/ModifierTypes.h \
   src/basis/Numbers.h \
@@ -294,6 +295,8 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/backward/binders.h:
 
+/usr/include/c++/13.1.1/bits/stl_function.h:
+
 /usr/include/c++/13.1.1/exception:
 
 /usr/include/bits/types/__FILE.h:
@@ -305,8 +308,6 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 /usr/include/wchar.h:
 
 /usr/include/c++/13.1.1/bits/stringfwd.h:
-
-src/basis/LoopTypes.h:
 
 /usr/include/bits/libc-header-start.h:
 
@@ -330,18 +331,6 @@ src/add/add.h:
 
 src/basis/ModifierTypes.h:
 
-/usr/include/c++/13.1.1/bits/memoryfwd.h:
-
-/usr/include/c++/13.1.1/ostream:
-
-/usr/include/bits/atomic_wide_counter.h:
-
-/usr/include/bits/long-double.h:
-
-src/basis/References.h:
-
-/usr/include/bits/locale.h:
-
 /usr/include/bits/types/__locale_t.h:
 
 /usr/include/sched.h:
@@ -356,13 +345,23 @@ src/basis/References.h:
 
 /usr/include/c++/13.1.1/new:
 
-/usr/include/bits/endian.h:
-
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
 
 /usr/include/bits/types/FILE.h:
 
 /usr/include/c++/13.1.1/iostream:
+
+/usr/include/c++/13.1.1/bits/memoryfwd.h:
+
+/usr/include/c++/13.1.1/ostream:
+
+/usr/include/bits/atomic_wide_counter.h:
+
+/usr/include/bits/long-double.h:
+
+src/basis/References.h:
+
+/usr/include/bits/locale.h:
 
 /usr/include/bits/wordsize.h:
 
@@ -372,11 +371,11 @@ src/basis/Datatype.h:
 
 /usr/include/bits/types.h:
 
-/usr/include/c++/13.1.1/bits/cxxabi_init_exception.h:
-
-src/basis/Func.h:
-
 /usr/include/c++/13.1.1/bits/new_allocator.h:
+
+/usr/include/bits/endian.h:
+
+src/basis/IO.h:
 
 /usr/include/bits/types/locale_t.h:
 
@@ -390,6 +389,12 @@ src/basis/Func.h:
 
 /usr/include/locale.h:
 
+src/basis/LoopTypes.h:
+
+src/basis/Func.h:
+
+/usr/include/c++/13.1.1/bits/cxxabi_init_exception.h:
+
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
 
 /usr/include/errno.h:
@@ -402,6 +407,12 @@ src/basis/StorageClass.h:
 
 /usr/include/c++/13.1.1/cctype:
 
+src/basis/Operators.h:
+
+/usr/include/c++/13.1.1/bits/invoke.h:
+
+/usr/include/c++/13.1.1/string:
+
 src/basis/Numbers.h:
 
 /usr/include/stdc-predef.h:
@@ -409,12 +420,6 @@ src/basis/Numbers.h:
 /usr/include/gnu/stubs.h:
 
 /usr/include/bits/pthreadtypes-arch.h:
-
-src/basis/Operators.h:
-
-/usr/include/c++/13.1.1/bits/invoke.h:
-
-/usr/include/c++/13.1.1/string:
 
 /usr/include/bits/pthreadtypes.h:
 
@@ -591,5 +596,3 @@ src/basis/Decisions.h:
 /usr/include/c++/13.1.1/debug/assertions.h:
 
 /usr/include/c++/13.1.1/bits/stl_iterator_base_types.h:
-
-/usr/include/c++/13.1.1/bits/stl_function.h:
