@@ -14,6 +14,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   src/basis/Operators.h \
   src/basis/StorageClass.h \
   src/basis/Streams.h \
+  src/basis/Strings.h \
   src/add/add.h \
   src/mul/mul.h \
   src/sub/sub.h \
@@ -282,6 +283,8 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/bits/refwrap.h:
 
+/usr/include/c++/13.1.1/bits/stl_pair.h:
+
 /usr/include/c++/13.1.1/new:
 
 /usr/include/bits/waitstatus.h:
@@ -332,6 +335,8 @@ src/add/add.h:
 
 /usr/include/bits/types/time_t.h:
 
+/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+
 src/basis/ModifierTypes.h:
 
 /usr/include/gnu/stubs-64.h:
@@ -347,16 +352,6 @@ src/basis/ModifierTypes.h:
 /usr/include/bits/types/FILE.h:
 
 /usr/include/c++/13.1.1/iostream:
-
-src/basis/Operators.h:
-
-/usr/include/c++/13.1.1/bits/invoke.h:
-
-/usr/include/c++/13.1.1/string:
-
-src/basis/Numbers.h:
-
-/usr/include/stdc-predef.h:
 
 src/basis/StorageClass.h:
 
@@ -394,7 +389,27 @@ src/basis/Func.h:
 
 /usr/include/locale.h:
 
-/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+src/basis/Operators.h:
+
+/usr/include/c++/13.1.1/bits/invoke.h:
+
+/usr/include/c++/13.1.1/string:
+
+src/basis/Numbers.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/c++/13.1.1/ext/type_traits.h:
+
+/usr/include/c++/13.1.1/bits/memoryfwd.h:
+
+/usr/include/c++/13.1.1/ostream:
+
+/usr/include/bits/atomic_wide_counter.h:
+
+/usr/include/bits/long-double.h:
 
 src/mul/mul.h:
 
@@ -416,7 +431,9 @@ src/sub/sub.h:
 
 /usr/include/c++/13.1.1/bits/stl_iterator_base_funcs.h:
 
-/usr/include/c++/13.1.1/bits/move.h:
+/usr/include/c++/13.1.1/bits/nested_exception.h:
+
+/usr/include/c++/13.1.1/bits/requires_hosted.h:
 
 src/basis/Constants.h:
 
@@ -428,23 +445,11 @@ src/basis/Arrays.h:
 
 /usr/include/c++/13.1.1/clocale:
 
-/usr/include/c++/13.1.1/bits/stl_pair.h:
-
 /usr/include/bits/wordsize.h:
 
+src/basis/Strings.h:
+
 /usr/include/sys/cdefs.h:
-
-/usr/include/c++/13.1.1/bits/memoryfwd.h:
-
-/usr/include/c++/13.1.1/ostream:
-
-/usr/include/bits/atomic_wide_counter.h:
-
-/usr/include/bits/long-double.h:
-
-/usr/include/c++/13.1.1/bits/requires_hosted.h:
-
-/usr/include/c++/13.1.1/bits/nested_exception.h:
 
 /usr/include/bits/pthreadtypes-arch.h:
 
@@ -453,6 +458,8 @@ src/basis/Arrays.h:
 /usr/include/errno.h:
 
 /usr/include/c++/13.1.1/bits/cpp_type_traits.h:
+
+/usr/include/c++/13.1.1/bits/move.h:
 
 /usr/include/c++/13.1.1/type_traits:
 
@@ -531,10 +538,6 @@ src/basis/Arrays.h:
 /usr/include/bits/struct_rwlock.h:
 
 /usr/include/bits/types/struct_itimerspec.h:
-
-/usr/include/bits/pthreadtypes.h:
-
-/usr/include/c++/13.1.1/ext/type_traits.h:
 
 /usr/include/c++/13.1.1/bits/streambuf_iterator.h:
 

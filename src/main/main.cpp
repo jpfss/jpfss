@@ -7,6 +7,7 @@
 #include "ModifierTypes.h"
 #include "Numbers.h"
 #include "Operators.h"
+#include "Pointers.h"
 #include "StorageClass.h"
 #include "Streams.h"
 #include "Strings.h"
@@ -62,5 +63,8 @@ int main() {
 
   Strings strings;
   strings.go();
+
+  Pointers pointers;
+  pointers.go();
   return 0;
 }

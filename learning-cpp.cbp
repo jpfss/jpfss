@@ -297,9 +297,8 @@
 		<Unit filename="src/add/add.h">
 			<Option target="add" />
 		</Unit>
-		<Unit filename="src/basis/Arrays.cpp">
-			<Option target="basis" />
-		</Unit>
+		<Unit filename="src/basis/Arrays.cpp" />
+		<Unit filename="src/basis/Arrays.h" />
 		<Unit filename="src/basis/Constants.cpp" />
 		<Unit filename="src/basis/Constants.h" />
 		<Unit filename="src/basis/Datatype.cpp">
@@ -308,14 +307,24 @@
 		<Unit filename="src/basis/Datatype.h">
 			<Option target="basis" />
 		</Unit>
+		<Unit filename="src/basis/Decisions.cpp" />
+		<Unit filename="src/basis/Decisions.h" />
+		<Unit filename="src/basis/Func.cpp" />
+		<Unit filename="src/basis/Func.h" />
+		<Unit filename="src/basis/LoopTypes.cpp" />
+		<Unit filename="src/basis/LoopTypes.h" />
 		<Unit filename="src/basis/ModifierTypes.cpp" />
 		<Unit filename="src/basis/ModifierTypes.h" />
+		<Unit filename="src/basis/Numbers.cpp" />
+		<Unit filename="src/basis/Numbers.h" />
 		<Unit filename="src/basis/Operators.cpp" />
 		<Unit filename="src/basis/Operators.h" />
 		<Unit filename="src/basis/StorageClass.cpp" />
 		<Unit filename="src/basis/StorageClass.h" />
 		<Unit filename="src/basis/Streams.cpp" />
 		<Unit filename="src/basis/Streams.h" />
+		<Unit filename="src/basis/Strings.cpp" />
+		<Unit filename="src/basis/Strings.h" />
 		<Unit filename="src/main/main.cpp">
 			<Option target="main" />
 		</Unit>

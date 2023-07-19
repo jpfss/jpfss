@@ -421,6 +421,30 @@ src/basis/Operators.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Operators.cpp.s
 .PHONY : src/basis/Operators.cpp.s
 
+src/basis/Pointers.o: src/basis/Pointers.cpp.o
+.PHONY : src/basis/Pointers.o
+
+# target to build an object file
+src/basis/Pointers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Pointers.cpp.o
+.PHONY : src/basis/Pointers.cpp.o
+
+src/basis/Pointers.i: src/basis/Pointers.cpp.i
+.PHONY : src/basis/Pointers.i
+
+# target to preprocess a source file
+src/basis/Pointers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Pointers.cpp.i
+.PHONY : src/basis/Pointers.cpp.i
+
+src/basis/Pointers.s: src/basis/Pointers.cpp.s
+.PHONY : src/basis/Pointers.s
+
+# target to generate assembly for a file
+src/basis/Pointers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Pointers.cpp.s
+.PHONY : src/basis/Pointers.cpp.s
+
 src/basis/StorageClass.o: src/basis/StorageClass.cpp.o
 .PHONY : src/basis/StorageClass.o
 
@@ -608,6 +632,9 @@ help:
 	@echo "... src/basis/Operators.o"
 	@echo "... src/basis/Operators.i"
 	@echo "... src/basis/Operators.s"
+	@echo "... src/basis/Pointers.o"
+	@echo "... src/basis/Pointers.i"
+	@echo "... src/basis/Pointers.s"
 	@echo "... src/basis/StorageClass.o"
 	@echo "... src/basis/StorageClass.i"
 	@echo "... src/basis/StorageClass.s"
