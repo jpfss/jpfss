@@ -493,6 +493,30 @@ src/basis/Operators.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Operators.cpp.s
 .PHONY : src/basis/Operators.cpp.s
 
+src/basis/PaintCost.o: src/basis/PaintCost.cpp.o
+.PHONY : src/basis/PaintCost.o
+
+# target to build an object file
+src/basis/PaintCost.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/PaintCost.cpp.o
+.PHONY : src/basis/PaintCost.cpp.o
+
+src/basis/PaintCost.i: src/basis/PaintCost.cpp.i
+.PHONY : src/basis/PaintCost.i
+
+# target to preprocess a source file
+src/basis/PaintCost.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/PaintCost.cpp.i
+.PHONY : src/basis/PaintCost.cpp.i
+
+src/basis/PaintCost.s: src/basis/PaintCost.cpp.s
+.PHONY : src/basis/PaintCost.s
+
+# target to generate assembly for a file
+src/basis/PaintCost.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/PaintCost.cpp.s
+.PHONY : src/basis/PaintCost.cpp.s
+
 src/basis/Pointers.o: src/basis/Pointers.cpp.o
 .PHONY : src/basis/Pointers.o
 
@@ -517,6 +541,30 @@ src/basis/Pointers.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Pointers.cpp.s
 .PHONY : src/basis/Pointers.cpp.s
 
+src/basis/Rectangle.o: src/basis/Rectangle.cpp.o
+.PHONY : src/basis/Rectangle.o
+
+# target to build an object file
+src/basis/Rectangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Rectangle.cpp.o
+.PHONY : src/basis/Rectangle.cpp.o
+
+src/basis/Rectangle.i: src/basis/Rectangle.cpp.i
+.PHONY : src/basis/Rectangle.i
+
+# target to preprocess a source file
+src/basis/Rectangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Rectangle.cpp.i
+.PHONY : src/basis/Rectangle.cpp.i
+
+src/basis/Rectangle.s: src/basis/Rectangle.cpp.s
+.PHONY : src/basis/Rectangle.s
+
+# target to generate assembly for a file
+src/basis/Rectangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Rectangle.cpp.s
+.PHONY : src/basis/Rectangle.cpp.s
+
 src/basis/References.o: src/basis/References.cpp.o
 .PHONY : src/basis/References.o
 
@@ -540,6 +588,30 @@ src/basis/References.s: src/basis/References.cpp.s
 src/basis/References.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/References.cpp.s
 .PHONY : src/basis/References.cpp.s
+
+src/basis/Shapes.o: src/basis/Shapes.cpp.o
+.PHONY : src/basis/Shapes.o
+
+# target to build an object file
+src/basis/Shapes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Shapes.cpp.o
+.PHONY : src/basis/Shapes.cpp.o
+
+src/basis/Shapes.i: src/basis/Shapes.cpp.i
+.PHONY : src/basis/Shapes.i
+
+# target to preprocess a source file
+src/basis/Shapes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Shapes.cpp.i
+.PHONY : src/basis/Shapes.cpp.i
+
+src/basis/Shapes.s: src/basis/Shapes.cpp.s
+.PHONY : src/basis/Shapes.s
+
+# target to generate assembly for a file
+src/basis/Shapes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Shapes.cpp.s
+.PHONY : src/basis/Shapes.cpp.s
 
 src/basis/StorageClass.o: src/basis/StorageClass.cpp.o
 .PHONY : src/basis/StorageClass.o
@@ -761,12 +833,21 @@ help:
 	@echo "... src/basis/Operators.o"
 	@echo "... src/basis/Operators.i"
 	@echo "... src/basis/Operators.s"
+	@echo "... src/basis/PaintCost.o"
+	@echo "... src/basis/PaintCost.i"
+	@echo "... src/basis/PaintCost.s"
 	@echo "... src/basis/Pointers.o"
 	@echo "... src/basis/Pointers.i"
 	@echo "... src/basis/Pointers.s"
+	@echo "... src/basis/Rectangle.o"
+	@echo "... src/basis/Rectangle.i"
+	@echo "... src/basis/Rectangle.s"
 	@echo "... src/basis/References.o"
 	@echo "... src/basis/References.i"
 	@echo "... src/basis/References.s"
+	@echo "... src/basis/Shapes.o"
+	@echo "... src/basis/Shapes.i"
+	@echo "... src/basis/Shapes.s"
 	@echo "... src/basis/StorageClass.o"
 	@echo "... src/basis/StorageClass.i"
 	@echo "... src/basis/StorageClass.s"

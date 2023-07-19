@@ -11,6 +11,7 @@
 #include "Numbers.h"
 #include "Operators.h"
 #include "Pointers.h"
+#include "Rectangle.h"
 #include "References.h"
 #include "StorageClass.h"
 #include "Streams.h"
@@ -86,5 +87,8 @@ int main() {
 
   Clazz clazz;
   clazz.go();
+
+  Rectangle rectangle;
+  rectangle.go();
   return 0;
 }

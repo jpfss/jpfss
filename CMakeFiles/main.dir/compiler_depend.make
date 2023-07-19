@@ -4,6 +4,7 @@
 CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   /usr/include/stdc-predef.h \
   src/basis/Arrays.h \
+  src/basis/Clazz.h \
   src/basis/Constants.h \
   src/basis/Datatype.h \
   src/basis/DateTime.h \
@@ -298,6 +299,8 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/bits/stl_function.h:
 
+/usr/include/c++/13.1.1/ext/type_traits.h:
+
 /usr/include/c++/13.1.1/exception:
 
 /usr/include/bits/types/__FILE.h:
@@ -326,7 +329,21 @@ src/add/add.h:
 
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
 
+/usr/include/bits/wordsize.h:
+
 src/basis/ModifierTypes.h:
+
+/usr/include/c++/13.1.1/bits/memoryfwd.h:
+
+/usr/include/c++/13.1.1/ostream:
+
+/usr/include/bits/atomic_wide_counter.h:
+
+/usr/include/bits/long-double.h:
+
+src/basis/References.h:
+
+/usr/include/bits/locale.h:
 
 /usr/include/bits/types/__locale_t.h:
 
@@ -348,23 +365,9 @@ src/basis/ModifierTypes.h:
 
 /usr/include/c++/13.1.1/iostream:
 
-/usr/include/c++/13.1.1/bits/memoryfwd.h:
-
-/usr/include/c++/13.1.1/ostream:
-
-/usr/include/bits/atomic_wide_counter.h:
-
-/usr/include/bits/long-double.h:
-
-src/basis/References.h:
-
-/usr/include/bits/locale.h:
-
 /usr/include/bits/libc-header-start.h:
 
 src/basis/DateTime.h:
-
-/usr/include/bits/wordsize.h:
 
 /usr/include/bits/types/struct_tm.h:
 
@@ -373,10 +376,6 @@ src/basis/Datatype.h:
 /usr/include/bits/types.h:
 
 /usr/include/c++/13.1.1/bits/new_allocator.h:
-
-/usr/include/bits/endian.h:
-
-src/basis/IO.h:
 
 /usr/include/bits/types/locale_t.h:
 
@@ -389,6 +388,12 @@ src/basis/IO.h:
 /usr/include/bits/types/wint_t.h:
 
 /usr/include/locale.h:
+
+/usr/include/bits/endian.h:
+
+src/basis/Clazz.h:
+
+src/basis/IO.h:
 
 src/basis/LoopTypes.h:
 
@@ -429,8 +434,6 @@ src/basis/Operators.h:
 src/basis/Strings.h:
 
 /usr/include/bits/pthreadtypes.h:
-
-/usr/include/c++/13.1.1/ext/type_traits.h:
 
 /usr/include/gnu/stubs-64.h:
 
