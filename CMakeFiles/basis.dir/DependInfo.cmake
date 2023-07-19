@@ -30,6 +30,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Streams.cpp" "CMakeFiles/basis.dir/src/basis/Streams.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Streams.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Strings.cpp" "CMakeFiles/basis.dir/src/basis/Strings.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Strings.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Structures.cpp" "CMakeFiles/basis.dir/src/basis/Structures.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Structures.cpp.o.d"
+  "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Triangle.cpp" "CMakeFiles/basis.dir/src/basis/Triangle.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Triangle.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

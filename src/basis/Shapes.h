@@ -9,6 +9,8 @@ public:
   Shapes &operator=(const Shapes &other);
   void setWidth(int w);
   void setHeight(int h);
+  Shapes(const int, const int);
+  int area();
 
 protected:
   int width;

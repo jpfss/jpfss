@@ -4,6 +4,7 @@
 CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   /usr/include/stdc-predef.h \
   src/basis/Arrays.h \
+  src/basis/Box.h \
   src/basis/Clazz.h \
   src/basis/Constants.h \
   src/basis/Datatype.h \
@@ -24,6 +25,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   src/basis/Streams.h \
   src/basis/Strings.h \
   src/basis/Structures.h \
+  src/basis/Triangle.h \
   src/add/add.h \
   src/mul/mul.h \
   src/sub/sub.h \
@@ -310,6 +312,8 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/debug/assertions.h:
 
+/usr/include/c++/13.1.1/bits/concept_check.h:
+
 /usr/include/bits/types/__FILE.h:
 
 /usr/include/c++/13.1.1/bits/basic_string.tcc:
@@ -338,7 +342,71 @@ src/add/add.h:
 
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
 
+/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
+
 src/basis/ModifierTypes.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/stddef.h:
+
+src/basis/Box.h:
+
+/usr/include/c++/13.1.1/bits/stringfwd.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/c++/13.1.1/bits/utility.h:
+
+/usr/include/bits/timesize.h:
+
+/usr/include/c++/13.1.1/new:
+
+/usr/include/bits/libc-header-start.h:
+
+src/basis/DateTime.h:
+
+/usr/include/bits/types/struct_tm.h:
+
+src/basis/Datatype.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/c++/13.1.1/bits/stl_iterator_base_funcs.h:
+
+/usr/include/bits/wchar.h:
+
+src/sub/sub.h:
+
+/usr/include/c++/13.1.1/bits/new_allocator.h:
+
+/usr/include/c++/13.1.1/bits/stl_iterator.h:
+
+/usr/include/time.h:
+
+src/basis/Arrays.h:
+
+/usr/include/c++/13.1.1/clocale:
+
+/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
+
+/usr/include/bits/types/wint_t.h:
+
+/usr/include/locale.h:
+
+/usr/include/bits/types/__locale_t.h:
+
+/usr/include/sched.h:
+
+src/basis/LoopTypes.h:
+
+src/basis/Func.h:
+
+/usr/include/c++/13.1.1/bits/cxxabi_init_exception.h:
+
+/usr/include/stdc-predef.h:
+
+src/basis/Numbers.h:
 
 /usr/include/c++/13.1.1/bits/memoryfwd.h:
 
@@ -351,68 +419,6 @@ src/basis/ModifierTypes.h:
 src/basis/References.h:
 
 /usr/include/bits/locale.h:
-
-/usr/include/wchar.h:
-
-/usr/include/c++/13.1.1/bits/stringfwd.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/stddef.h:
-
-/usr/include/bits/waitstatus.h:
-
-/usr/include/c++/13.1.1/bits/utility.h:
-
-/usr/include/bits/timesize.h:
-
-/usr/include/c++/13.1.1/new:
-
-/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
-
-/usr/include/bits/types/FILE.h:
-
-/usr/include/c++/13.1.1/iostream:
-
-/usr/include/bits/libc-header-start.h:
-
-src/basis/DateTime.h:
-
-/usr/include/bits/types/struct_tm.h:
-
-src/basis/Datatype.h:
-
-/usr/include/bits/types.h:
-
-/usr/include/c++/13.1.1/bits/new_allocator.h:
-
-/usr/include/c++/13.1.1/bits/stl_iterator.h:
-
-/usr/include/time.h:
-
-src/basis/Arrays.h:
-
-/usr/include/c++/13.1.1/clocale:
-
-/usr/include/bits/types/locale_t.h:
-
-/usr/include/c++/13.1.1/bits/locale_classes.h:
-
-/usr/include/c++/13.1.1/ext/atomicity.h:
-
-/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
-
-/usr/include/bits/types/wint_t.h:
-
-/usr/include/locale.h:
-
-src/basis/LoopTypes.h:
-
-src/basis/Func.h:
-
-/usr/include/c++/13.1.1/bits/cxxabi_init_exception.h:
-
-/usr/include/stdc-predef.h:
-
-src/basis/Numbers.h:
 
 /usr/include/bits/endian.h:
 
@@ -427,6 +433,16 @@ src/basis/PaintCost.h:
 /usr/include/bits/pthread_stack_min-dynamic.h:
 
 src/basis/Structures.h:
+
+/usr/include/c++/13.1.1/bits/nested_exception.h:
+
+/usr/include/c++/13.1.1/bits/requires_hosted.h:
+
+src/main/main.cpp:
+
+src/basis/Streams.h:
+
+/usr/include/bits/types/__sigset_t.h:
 
 /usr/include/bits/pthreadtypes-arch.h:
 
@@ -468,25 +484,15 @@ src/mul/mul.h:
 
 /usr/include/bits/timex.h:
 
-src/main/main.cpp:
+/usr/include/c++/13.1.1/iostream:
 
-src/basis/Streams.h:
+/usr/include/bits/types/FILE.h:
 
-/usr/include/bits/types/__sigset_t.h:
+/usr/include/bits/types/locale_t.h:
 
-/usr/include/bits/wchar.h:
+/usr/include/c++/13.1.1/bits/locale_classes.h:
 
-src/sub/sub.h:
-
-/usr/include/c++/13.1.1/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/13.1.1/bits/nested_exception.h:
-
-/usr/include/c++/13.1.1/bits/requires_hosted.h:
-
-/usr/include/bits/types/__locale_t.h:
-
-/usr/include/sched.h:
+/usr/include/c++/13.1.1/ext/atomicity.h:
 
 /usr/include/c++/13.1.1/exception:
 
@@ -509,6 +515,8 @@ src/basis/Constants.h:
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/gthr.h:
 
 /usr/include/c++/13.1.1/bits/allocator.h:
+
+src/basis/Triangle.h:
 
 /usr/include/c++/13.1.1/bits/move.h:
 
@@ -609,5 +617,3 @@ src/basis/Decisions.h:
 /usr/include/c++/13.1.1/ios:
 
 /usr/include/c++/13.1.1/bits/functexcept.h:
-
-/usr/include/c++/13.1.1/bits/concept_check.h:

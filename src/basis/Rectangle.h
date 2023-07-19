@@ -11,6 +11,10 @@ public:
   Rectangle &operator=(const Rectangle &other);
   int getArea();
   void go();
+  Rectangle(const int, const int);
+  int area();
+  // pure virtual function
+  // virtual int area() = 0;
 
 protected:
 private:

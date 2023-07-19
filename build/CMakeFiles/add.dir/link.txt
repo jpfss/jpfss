@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/lib/libadd.a CMakeFiles/add.dir/src/add/add.cpp.o
+/usr/bin/ranlib /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/lib/libadd.a

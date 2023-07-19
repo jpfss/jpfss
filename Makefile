@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/jpfss/Work/Project/Learns/Cpp/learning-cpp
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -733,6 +733,30 @@ src/basis/Structures.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Structures.cpp.s
 .PHONY : src/basis/Structures.cpp.s
 
+src/basis/Triangle.o: src/basis/Triangle.cpp.o
+.PHONY : src/basis/Triangle.o
+
+# target to build an object file
+src/basis/Triangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Triangle.cpp.o
+.PHONY : src/basis/Triangle.cpp.o
+
+src/basis/Triangle.i: src/basis/Triangle.cpp.i
+.PHONY : src/basis/Triangle.i
+
+# target to preprocess a source file
+src/basis/Triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Triangle.cpp.i
+.PHONY : src/basis/Triangle.cpp.i
+
+src/basis/Triangle.s: src/basis/Triangle.cpp.s
+.PHONY : src/basis/Triangle.s
+
+# target to generate assembly for a file
+src/basis/Triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Triangle.cpp.s
+.PHONY : src/basis/Triangle.cpp.s
+
 src/main/main.o: src/main/main.cpp.o
 .PHONY : src/main/main.o
 
@@ -887,6 +911,9 @@ help:
 	@echo "... src/basis/Structures.o"
 	@echo "... src/basis/Structures.i"
 	@echo "... src/basis/Structures.s"
+	@echo "... src/basis/Triangle.o"
+	@echo "... src/basis/Triangle.i"
+	@echo "... src/basis/Triangle.s"
 	@echo "... src/main/main.o"
 	@echo "... src/main/main.i"
 	@echo "... src/main/main.s"

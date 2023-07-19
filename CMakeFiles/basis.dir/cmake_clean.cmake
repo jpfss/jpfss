@@ -43,6 +43,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/basis.dir/src/basis/Strings.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/Structures.cpp.o"
   "CMakeFiles/basis.dir/src/basis/Structures.cpp.o.d"
+  "CMakeFiles/basis.dir/src/basis/Triangle.cpp.o"
+  "CMakeFiles/basis.dir/src/basis/Triangle.cpp.o.d"
   "lib/libbasis.pdb"
   "lib/libbasis.so"
 )

@@ -23,6 +23,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: \
  /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Streams.h \
  /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Strings.h \
  /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Structures.h \
+ /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Triangle.h \
  /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/add/add.h \
  /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/mul/mul.h \
  /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/sub/sub.h \

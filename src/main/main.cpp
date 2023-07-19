@@ -18,6 +18,7 @@
 #include "Streams.h"
 #include "Strings.h"
 #include "Structures.h"
+#include "Triangle.h"
 #include "add.h"
 #include "mul.h"
 #include "sub.h"
@@ -31,9 +32,9 @@ int main() {
   int z = 15;
 
   cout << "x=" << x << ", y=" << y << ", z=" << z << endl;
+  cout << "mul(x,y)=" << mul(x, y) << endl;
   cout << "add(x,y)=" << add(x, y) << endl;
   cout << "sub(x,y)=" << sub(x, y) << endl;
-  cout << "mul(x,y)=" << mul(x, y) << endl;
 
   Datatype datatype;
   datatype.go();
@@ -93,6 +94,9 @@ int main() {
   rectangle.go();
   Box box;
   box.go();
+
+  Triangle triangle;
+  triangle.go();
 
   return 0;
 }

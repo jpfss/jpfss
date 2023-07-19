@@ -1,7 +1,8 @@
-CMakeFiles/basis.dir/src/basis/Filestream.cpp.o: \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Filestream.cpp \
+CMakeFiles/basis.dir/src/basis/Triangle.cpp.o: \
+ /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Triangle.cpp \
  /usr/include/stdc-predef.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Filestream.h \
+ /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Triangle.h \
+ /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Shapes.h \
  /usr/include/c++/13.1.1/iostream \
  /usr/include/c++/13.1.1/bits/requires_hosted.h \
  /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -129,8 +130,4 @@ CMakeFiles/basis.dir/src/basis/Filestream.cpp.o: \
  /usr/include/c++/13.1.1/bits/locale_facets.tcc \
  /usr/include/c++/13.1.1/bits/basic_ios.tcc \
  /usr/include/c++/13.1.1/bits/ostream.tcc /usr/include/c++/13.1.1/istream \
- /usr/include/c++/13.1.1/bits/istream.tcc /usr/include/c++/13.1.1/fstream \
- /usr/include/c++/13.1.1/bits/codecvt.h \
- /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/basic_file.h \
- /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++io.h \
- /usr/include/c++/13.1.1/bits/fstream.tcc
+ /usr/include/c++/13.1.1/bits/istream.tcc
