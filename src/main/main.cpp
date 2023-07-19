@@ -1,4 +1,5 @@
 #include "Arrays.h"
+#include "Clazz.h"
 #include "Constants.h"
 #include "Datatype.h"
 #include "DateTime.h"
@@ -83,5 +84,7 @@ int main() {
   Structures structures;
   structures.go();
 
+  Clazz clazz;
+  clazz.go();
   return 0;
 }

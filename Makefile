@@ -229,6 +229,30 @@ src/basis/Arrays.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Arrays.cpp.s
 .PHONY : src/basis/Arrays.cpp.s
 
+src/basis/Clazz.o: src/basis/Clazz.cpp.o
+.PHONY : src/basis/Clazz.o
+
+# target to build an object file
+src/basis/Clazz.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Clazz.cpp.o
+.PHONY : src/basis/Clazz.cpp.o
+
+src/basis/Clazz.i: src/basis/Clazz.cpp.i
+.PHONY : src/basis/Clazz.i
+
+# target to preprocess a source file
+src/basis/Clazz.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Clazz.cpp.i
+.PHONY : src/basis/Clazz.cpp.i
+
+src/basis/Clazz.s: src/basis/Clazz.cpp.s
+.PHONY : src/basis/Clazz.s
+
+# target to generate assembly for a file
+src/basis/Clazz.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Clazz.cpp.s
+.PHONY : src/basis/Clazz.cpp.s
+
 src/basis/Constants.o: src/basis/Constants.cpp.o
 .PHONY : src/basis/Constants.o
 
@@ -704,6 +728,9 @@ help:
 	@echo "... src/basis/Arrays.o"
 	@echo "... src/basis/Arrays.i"
 	@echo "... src/basis/Arrays.s"
+	@echo "... src/basis/Clazz.o"
+	@echo "... src/basis/Clazz.i"
+	@echo "... src/basis/Clazz.s"
 	@echo "... src/basis/Constants.o"
 	@echo "... src/basis/Constants.i"
 	@echo "... src/basis/Constants.s"

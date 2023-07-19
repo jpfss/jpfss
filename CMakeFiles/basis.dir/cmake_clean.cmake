@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/basis.dir/src/basis/Arrays.cpp.o"
   "CMakeFiles/basis.dir/src/basis/Arrays.cpp.o.d"
+  "CMakeFiles/basis.dir/src/basis/Clazz.cpp.o"
+  "CMakeFiles/basis.dir/src/basis/Clazz.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/Constants.cpp.o"
   "CMakeFiles/basis.dir/src/basis/Constants.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/Datatype.cpp.o"

@@ -7,6 +7,7 @@
 			</VirtualDirectory>
 			<VirtualDirectory Name="basis">
 				<File Name="src/basis/Arrays.cpp"/>
+				<File Name="src/basis/Clazz.cpp"/>
 				<File Name="src/basis/Constants.cpp"/>
 				<File Name="src/basis/Datatype.cpp"/>
 				<File Name="src/basis/DateTime.cpp"/>
@@ -42,6 +43,7 @@
 			</VirtualDirectory>
 			<VirtualDirectory Name="basis">
 				<File Name="src/basis/Arrays.h"/>
+				<File Name="src/basis/Clazz.h"/>
 				<File Name="src/basis/Constants.h"/>
 				<File Name="src/basis/Datatype.h"/>
 				<File Name="src/basis/DateTime.h"/>
