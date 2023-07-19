@@ -9,6 +9,7 @@
 				<File Name="src/basis/Arrays.cpp"/>
 				<File Name="src/basis/Constants.cpp"/>
 				<File Name="src/basis/Datatype.cpp"/>
+				<File Name="src/basis/DateTime.cpp"/>
 				<File Name="src/basis/Decisions.cpp"/>
 				<File Name="src/basis/Func.cpp"/>
 				<File Name="src/basis/LoopTypes.cpp"/>
@@ -41,6 +42,7 @@
 				<File Name="src/basis/Arrays.h"/>
 				<File Name="src/basis/Constants.h"/>
 				<File Name="src/basis/Datatype.h"/>
+				<File Name="src/basis/DateTime.h"/>
 				<File Name="src/basis/Decisions.h"/>
 				<File Name="src/basis/Func.h"/>
 				<File Name="src/basis/LoopTypes.h"/>

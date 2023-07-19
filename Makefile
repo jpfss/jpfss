@@ -277,6 +277,30 @@ src/basis/Datatype.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Datatype.cpp.s
 .PHONY : src/basis/Datatype.cpp.s
 
+src/basis/DateTime.o: src/basis/DateTime.cpp.o
+.PHONY : src/basis/DateTime.o
+
+# target to build an object file
+src/basis/DateTime.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/DateTime.cpp.o
+.PHONY : src/basis/DateTime.cpp.o
+
+src/basis/DateTime.i: src/basis/DateTime.cpp.i
+.PHONY : src/basis/DateTime.i
+
+# target to preprocess a source file
+src/basis/DateTime.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/DateTime.cpp.i
+.PHONY : src/basis/DateTime.cpp.i
+
+src/basis/DateTime.s: src/basis/DateTime.cpp.s
+.PHONY : src/basis/DateTime.s
+
+# target to generate assembly for a file
+src/basis/DateTime.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/DateTime.cpp.s
+.PHONY : src/basis/DateTime.cpp.s
+
 src/basis/Decisions.o: src/basis/Decisions.cpp.o
 .PHONY : src/basis/Decisions.o
 
@@ -638,6 +662,9 @@ help:
 	@echo "... src/basis/Datatype.o"
 	@echo "... src/basis/Datatype.i"
 	@echo "... src/basis/Datatype.s"
+	@echo "... src/basis/DateTime.o"
+	@echo "... src/basis/DateTime.i"
+	@echo "... src/basis/DateTime.s"
 	@echo "... src/basis/Decisions.o"
 	@echo "... src/basis/Decisions.i"
 	@echo "... src/basis/Decisions.s"

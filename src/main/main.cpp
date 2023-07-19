@@ -1,6 +1,7 @@
 #include "Arrays.h"
 #include "Constants.h"
 #include "Datatype.h"
+#include "DateTime.h"
 #include "Decisions.h"
 #include "Func.h"
 #include "LoopTypes.h"
@@ -70,6 +71,9 @@ int main() {
 
   References references;
   references.go();
+
+  DateTime datetime;
+  datetime.go();
 
   return 0;
 }
