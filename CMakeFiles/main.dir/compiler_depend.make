@@ -12,6 +12,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   src/basis/ModifierTypes.h \
   src/basis/Numbers.h \
   src/basis/Operators.h \
+  src/basis/Pointers.h \
   src/basis/StorageClass.h \
   src/basis/Streams.h \
   src/basis/Strings.h \
@@ -285,15 +286,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/bits/stl_pair.h:
 
-/usr/include/c++/13.1.1/new:
-
-/usr/include/bits/waitstatus.h:
-
-/usr/include/c++/13.1.1/bits/utility.h:
-
-/usr/include/bits/timesize.h:
-
-/usr/include/bits/endian.h:
+/usr/include/c++/13.1.1/bits/stl_algobase.h:
 
 /usr/include/c++/13.1.1/typeinfo:
 
@@ -339,25 +332,27 @@ src/add/add.h:
 
 src/basis/ModifierTypes.h:
 
-/usr/include/gnu/stubs-64.h:
-
 /usr/include/bits/types/__locale_t.h:
 
 /usr/include/sched.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/stddef.h:
 
+/usr/include/bits/waitstatus.h:
+
+/usr/include/c++/13.1.1/bits/utility.h:
+
+/usr/include/bits/timesize.h:
+
+/usr/include/c++/13.1.1/new:
+
+/usr/include/bits/endian.h:
+
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
 
 /usr/include/bits/types/FILE.h:
 
 /usr/include/c++/13.1.1/iostream:
-
-src/basis/StorageClass.h:
-
-/usr/include/c++/13.1.1/initializer_list:
-
-/usr/include/c++/13.1.1/cctype:
 
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
 
@@ -389,15 +384,21 @@ src/basis/Func.h:
 
 /usr/include/locale.h:
 
+src/basis/StorageClass.h:
+
+/usr/include/c++/13.1.1/initializer_list:
+
+/usr/include/c++/13.1.1/cctype:
+
+src/basis/Numbers.h:
+
+/usr/include/stdc-predef.h:
+
 src/basis/Operators.h:
 
 /usr/include/c++/13.1.1/bits/invoke.h:
 
 /usr/include/c++/13.1.1/string:
-
-src/basis/Numbers.h:
-
-/usr/include/stdc-predef.h:
 
 /usr/include/bits/pthreadtypes.h:
 
@@ -410,6 +411,10 @@ src/basis/Numbers.h:
 /usr/include/bits/atomic_wide_counter.h:
 
 /usr/include/bits/long-double.h:
+
+/usr/include/gnu/stubs-64.h:
+
+src/basis/Pointers.h:
 
 src/mul/mul.h:
 
@@ -582,5 +587,3 @@ src/basis/Decisions.h:
 /usr/include/c++/13.1.1/bits/stl_function.h:
 
 /usr/include/c++/13.1.1/backward/binders.h:
-
-/usr/include/c++/13.1.1/bits/stl_algobase.h:

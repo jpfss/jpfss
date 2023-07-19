@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/basis.dir/src/basis/Operators.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/Pointers.cpp.o"
   "CMakeFiles/basis.dir/src/basis/Pointers.cpp.o.d"
+  "CMakeFiles/basis.dir/src/basis/References.cpp.o"
+  "CMakeFiles/basis.dir/src/basis/References.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/StorageClass.cpp.o"
   "CMakeFiles/basis.dir/src/basis/StorageClass.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/Streams.cpp.o"

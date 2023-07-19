@@ -8,6 +8,7 @@
 #include "Numbers.h"
 #include "Operators.h"
 #include "Pointers.h"
+#include "References.h"
 #include "StorageClass.h"
 #include "Streams.h"
 #include "Strings.h"
@@ -66,5 +67,9 @@ int main() {
 
   Pointers pointers;
   pointers.go();
+
+  References references;
+  references.go();
+
   return 0;
 }

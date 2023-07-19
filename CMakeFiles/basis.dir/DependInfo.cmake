@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Numbers.cpp" "CMakeFiles/basis.dir/src/basis/Numbers.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Numbers.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Operators.cpp" "CMakeFiles/basis.dir/src/basis/Operators.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Operators.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Pointers.cpp" "CMakeFiles/basis.dir/src/basis/Pointers.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Pointers.cpp.o.d"
+  "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/References.cpp" "CMakeFiles/basis.dir/src/basis/References.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/References.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/StorageClass.cpp" "CMakeFiles/basis.dir/src/basis/StorageClass.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/StorageClass.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Streams.cpp" "CMakeFiles/basis.dir/src/basis/Streams.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Streams.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Strings.cpp" "CMakeFiles/basis.dir/src/basis/Strings.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Strings.cpp.o.d"
