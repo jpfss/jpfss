@@ -1,4 +1,5 @@
 #include "Arrays.h"
+#include "Box.h"
 #include "Clazz.h"
 #include "Constants.h"
 #include "Datatype.h"
@@ -90,5 +91,8 @@ int main() {
 
   Rectangle rectangle;
   rectangle.go();
+  Box box;
+  box.go();
+
   return 0;
 }

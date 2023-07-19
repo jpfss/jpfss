@@ -229,6 +229,30 @@ src/basis/Arrays.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Arrays.cpp.s
 .PHONY : src/basis/Arrays.cpp.s
 
+src/basis/Box.o: src/basis/Box.cpp.o
+.PHONY : src/basis/Box.o
+
+# target to build an object file
+src/basis/Box.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Box.cpp.o
+.PHONY : src/basis/Box.cpp.o
+
+src/basis/Box.i: src/basis/Box.cpp.i
+.PHONY : src/basis/Box.i
+
+# target to preprocess a source file
+src/basis/Box.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Box.cpp.i
+.PHONY : src/basis/Box.cpp.i
+
+src/basis/Box.s: src/basis/Box.cpp.s
+.PHONY : src/basis/Box.s
+
+# target to generate assembly for a file
+src/basis/Box.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Box.cpp.s
+.PHONY : src/basis/Box.cpp.s
+
 src/basis/Clazz.o: src/basis/Clazz.cpp.o
 .PHONY : src/basis/Clazz.o
 
@@ -800,6 +824,9 @@ help:
 	@echo "... src/basis/Arrays.o"
 	@echo "... src/basis/Arrays.i"
 	@echo "... src/basis/Arrays.s"
+	@echo "... src/basis/Box.o"
+	@echo "... src/basis/Box.i"
+	@echo "... src/basis/Box.s"
 	@echo "... src/basis/Clazz.o"
 	@echo "... src/basis/Clazz.i"
 	@echo "... src/basis/Clazz.s"

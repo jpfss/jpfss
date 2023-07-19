@@ -16,6 +16,9 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   src/basis/Numbers.h \
   src/basis/Operators.h \
   src/basis/Pointers.h \
+  src/basis/Rectangle.h \
+  src/basis/PaintCost.h \
+  src/basis/Shapes.h \
   src/basis/References.h \
   src/basis/StorageClass.h \
   src/basis/Streams.h \
@@ -301,7 +304,11 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/ext/type_traits.h:
 
-/usr/include/c++/13.1.1/exception:
+/usr/include/c++/13.1.1/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
+
+/usr/include/c++/13.1.1/debug/assertions.h:
 
 /usr/include/bits/types/__FILE.h:
 
@@ -309,9 +316,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/stdarg.h:
 
-/usr/include/wchar.h:
-
-/usr/include/c++/13.1.1/bits/stringfwd.h:
+src/basis/Rectangle.h:
 
 /usr/include/bits/floatn.h:
 
@@ -331,6 +336,8 @@ src/add/add.h:
 
 /usr/include/bits/wordsize.h:
 
+/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
+
 src/basis/ModifierTypes.h:
 
 /usr/include/c++/13.1.1/bits/memoryfwd.h:
@@ -345,9 +352,9 @@ src/basis/References.h:
 
 /usr/include/bits/locale.h:
 
-/usr/include/bits/types/__locale_t.h:
+/usr/include/wchar.h:
 
-/usr/include/sched.h:
+/usr/include/c++/13.1.1/bits/stringfwd.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/stddef.h:
 
@@ -377,6 +384,14 @@ src/basis/Datatype.h:
 
 /usr/include/c++/13.1.1/bits/new_allocator.h:
 
+/usr/include/c++/13.1.1/bits/stl_iterator.h:
+
+/usr/include/time.h:
+
+src/basis/Arrays.h:
+
+/usr/include/c++/13.1.1/clocale:
+
 /usr/include/bits/types/locale_t.h:
 
 /usr/include/c++/13.1.1/bits/locale_classes.h:
@@ -389,12 +404,6 @@ src/basis/Datatype.h:
 
 /usr/include/locale.h:
 
-/usr/include/bits/endian.h:
-
-src/basis/Clazz.h:
-
-src/basis/IO.h:
-
 src/basis/LoopTypes.h:
 
 src/basis/Func.h:
@@ -405,9 +414,19 @@ src/basis/Func.h:
 
 src/basis/Numbers.h:
 
-src/basis/Structures.h:
+/usr/include/bits/endian.h:
 
-/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
+src/basis/IO.h:
+
+src/basis/Clazz.h:
+
+src/basis/PaintCost.h:
+
+/usr/include/c++/13.1.1/ext/string_conversions.h:
+
+/usr/include/bits/pthread_stack_min-dynamic.h:
+
+src/basis/Structures.h:
 
 /usr/include/bits/pthreadtypes-arch.h:
 
@@ -426,6 +445,8 @@ src/basis/StorageClass.h:
 src/basis/Operators.h:
 
 /usr/include/c++/13.1.1/bits/invoke.h:
+
+src/basis/Shapes.h:
 
 /usr/include/c++/13.1.1/string:
 
@@ -463,15 +484,17 @@ src/sub/sub.h:
 
 /usr/include/c++/13.1.1/bits/requires_hosted.h:
 
+/usr/include/bits/types/__locale_t.h:
+
+/usr/include/sched.h:
+
+/usr/include/c++/13.1.1/exception:
+
 src/basis/Constants.h:
 
 /usr/include/c++/13.1.1/bits/exception.h:
 
 /usr/include/bits/types/struct_timespec.h:
-
-src/basis/Arrays.h:
-
-/usr/include/c++/13.1.1/clocale:
 
 /usr/include/c++/13.1.1/typeinfo:
 
@@ -490,10 +513,6 @@ src/basis/Arrays.h:
 /usr/include/c++/13.1.1/bits/move.h:
 
 /usr/include/c++/13.1.1/type_traits:
-
-/usr/include/time.h:
-
-/usr/include/c++/13.1.1/bits/stl_iterator.h:
 
 /usr/include/c++/13.1.1/bits/char_traits.h:
 
@@ -573,10 +592,6 @@ src/basis/Arrays.h:
 
 /usr/include/bits/types/struct___jmp_buf_tag.h:
 
-/usr/include/c++/13.1.1/ext/string_conversions.h:
-
-/usr/include/bits/pthread_stack_min-dynamic.h:
-
 src/basis/Decisions.h:
 
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
@@ -596,9 +611,3 @@ src/basis/Decisions.h:
 /usr/include/c++/13.1.1/bits/functexcept.h:
 
 /usr/include/c++/13.1.1/bits/concept_check.h:
-
-/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
-
-/usr/include/c++/13.1.1/debug/assertions.h:
-
-/usr/include/c++/13.1.1/bits/stl_iterator_base_types.h:

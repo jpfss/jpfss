@@ -2922,6 +2922,10 @@ CMakeFiles/basis.dir/src/basis/References.cpp.o: src/basis/References.cpp \
   /usr/include/c++/13.1.1/istream \
   /usr/include/c++/13.1.1/bits/istream.tcc
 
+CMakeFiles/basis.dir/src/basis/Shapes.cpp.o: src/basis/Shapes.cpp \
+  /usr/include/stdc-predef.h \
+  src/basis/Shapes.h
+
 CMakeFiles/basis.dir/src/basis/StorageClass.cpp.o: src/basis/StorageClass.cpp \
   /usr/include/stdc-predef.h \
   src/basis/StorageClass.h \
@@ -3690,6 +3694,8 @@ CMakeFiles/basis.dir/src/basis/Structures.cpp.o: src/basis/Structures.cpp \
 
 src/basis/Strings.cpp:
 
+/usr/include/c++/13.1.1/bits/fstream.tcc:
+
 /usr/include/c++/13.1.1/bits/utility.h:
 
 /usr/include/bits/timesize.h:
@@ -4006,8 +4012,6 @@ src/basis/Structures.cpp:
 
 /usr/include/bits/atomic_wide_counter.h:
 
-/usr/include/c++/13.1.1/bits/fstream.tcc:
-
 src/basis/DateTime.cpp:
 
 /usr/include/bits/types/timer_t.h:
@@ -4039,6 +4043,8 @@ src/basis/Streams.cpp:
 src/basis/Decisions.cpp:
 
 /usr/include/bits/types/cookie_io_functions_t.h:
+
+src/basis/Shapes.cpp:
 
 /usr/include/c++/13.1.1/bits/stl_pair.h:
 
