@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/basis.dir/src/basis/Decisions.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/Func.cpp.o"
   "CMakeFiles/basis.dir/src/basis/Func.cpp.o.d"
+  "CMakeFiles/basis.dir/src/basis/IO.cpp.o"
+  "CMakeFiles/basis.dir/src/basis/IO.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/LoopTypes.cpp.o"
   "CMakeFiles/basis.dir/src/basis/LoopTypes.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/ModifierTypes.cpp.o"

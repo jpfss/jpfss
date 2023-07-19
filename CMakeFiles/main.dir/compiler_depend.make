@@ -6,6 +6,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   src/basis/Arrays.h \
   src/basis/Constants.h \
   src/basis/Datatype.h \
+  src/basis/DateTime.h \
   src/basis/Decisions.h \
   src/basis/Func.h \
   src/basis/LoopTypes.h \
@@ -291,9 +292,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/ext/numeric_traits.h:
 
-/usr/include/c++/13.1.1/typeinfo:
-
-/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++locale.h:
+/usr/include/c++/13.1.1/backward/binders.h:
 
 /usr/include/c++/13.1.1/exception:
 
@@ -303,13 +302,15 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/stdarg.h:
 
-/usr/include/bits/libc-header-start.h:
-
 /usr/include/wchar.h:
 
 /usr/include/c++/13.1.1/bits/stringfwd.h:
 
 src/basis/LoopTypes.h:
+
+/usr/include/bits/libc-header-start.h:
+
+src/basis/DateTime.h:
 
 /usr/include/bits/floatn.h:
 
@@ -328,6 +329,18 @@ src/add/add.h:
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
 
 src/basis/ModifierTypes.h:
+
+/usr/include/c++/13.1.1/bits/memoryfwd.h:
+
+/usr/include/c++/13.1.1/ostream:
+
+/usr/include/bits/atomic_wide_counter.h:
+
+/usr/include/bits/long-double.h:
+
+src/basis/References.h:
+
+/usr/include/bits/locale.h:
 
 /usr/include/bits/types/__locale_t.h:
 
@@ -350,6 +363,8 @@ src/basis/ModifierTypes.h:
 /usr/include/bits/types/FILE.h:
 
 /usr/include/c++/13.1.1/iostream:
+
+/usr/include/bits/wordsize.h:
 
 /usr/include/bits/types/struct_tm.h:
 
@@ -405,18 +420,6 @@ src/basis/Operators.h:
 
 /usr/include/c++/13.1.1/ext/type_traits.h:
 
-/usr/include/c++/13.1.1/bits/memoryfwd.h:
-
-/usr/include/c++/13.1.1/ostream:
-
-/usr/include/bits/atomic_wide_counter.h:
-
-src/basis/References.h:
-
-/usr/include/bits/locale.h:
-
-/usr/include/bits/long-double.h:
-
 /usr/include/gnu/stubs-64.h:
 
 src/basis/Pointers.h:
@@ -455,11 +458,13 @@ src/basis/Arrays.h:
 
 /usr/include/c++/13.1.1/clocale:
 
-/usr/include/bits/wordsize.h:
-
 src/basis/Strings.h:
 
 /usr/include/sys/cdefs.h:
+
+/usr/include/c++/13.1.1/typeinfo:
+
+/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++locale.h:
 
 /usr/include/c++/13.1.1/bits/hash_bytes.h:
 
@@ -588,5 +593,3 @@ src/basis/Decisions.h:
 /usr/include/c++/13.1.1/bits/stl_iterator_base_types.h:
 
 /usr/include/c++/13.1.1/bits/stl_function.h:
-
-/usr/include/c++/13.1.1/backward/binders.h:

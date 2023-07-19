@@ -4,6 +4,7 @@
 #include "DateTime.h"
 #include "Decisions.h"
 #include "Func.h"
+#include "IO.h"
 #include "LoopTypes.h"
 #include "ModifierTypes.h"
 #include "Numbers.h"
@@ -74,6 +75,9 @@ int main() {
 
   DateTime datetime;
   datetime.go();
+
+  IO io;
+  io.go();
 
   return 0;
 }
