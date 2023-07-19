@@ -299,18 +299,22 @@
 		</Unit>
 		<Unit filename="src/basis/Arrays.cpp" />
 		<Unit filename="src/basis/Arrays.h" />
+		<Unit filename="src/basis/Box.cpp" />
+		<Unit filename="src/basis/Box.h" />
+		<Unit filename="src/basis/Clazz.cpp" />
+		<Unit filename="src/basis/Clazz.h" />
 		<Unit filename="src/basis/Constants.cpp" />
 		<Unit filename="src/basis/Constants.h" />
-		<Unit filename="src/basis/Datatype.cpp">
-			<Option target="basis" />
-		</Unit>
-		<Unit filename="src/basis/Datatype.h">
-			<Option target="basis" />
-		</Unit>
+		<Unit filename="src/basis/Datatype.cpp" />
+		<Unit filename="src/basis/Datatype.h" />
+		<Unit filename="src/basis/DateTime.cpp" />
+		<Unit filename="src/basis/DateTime.h" />
 		<Unit filename="src/basis/Decisions.cpp" />
 		<Unit filename="src/basis/Decisions.h" />
 		<Unit filename="src/basis/Func.cpp" />
 		<Unit filename="src/basis/Func.h" />
+		<Unit filename="src/basis/IO.cpp" />
+		<Unit filename="src/basis/IO.h" />
 		<Unit filename="src/basis/LoopTypes.cpp" />
 		<Unit filename="src/basis/LoopTypes.h" />
 		<Unit filename="src/basis/ModifierTypes.cpp" />
@@ -319,14 +323,27 @@
 		<Unit filename="src/basis/Numbers.h" />
 		<Unit filename="src/basis/Operators.cpp" />
 		<Unit filename="src/basis/Operators.h" />
+		<Unit filename="src/basis/PaintCost.cpp" />
+		<Unit filename="src/basis/PaintCost.h" />
+		<Unit filename="src/basis/Pointers.cpp" />
+		<Unit filename="src/basis/Pointers.h" />
+		<Unit filename="src/basis/Rectangle.cpp" />
+		<Unit filename="src/basis/Rectangle.h" />
+		<Unit filename="src/basis/References.cpp" />
+		<Unit filename="src/basis/References.h" />
+		<Unit filename="src/basis/Shapes.cpp" />
+		<Unit filename="src/basis/Shapes.h" />
 		<Unit filename="src/basis/StorageClass.cpp" />
 		<Unit filename="src/basis/StorageClass.h" />
 		<Unit filename="src/basis/Streams.cpp" />
 		<Unit filename="src/basis/Streams.h" />
 		<Unit filename="src/basis/Strings.cpp" />
 		<Unit filename="src/basis/Strings.h" />
+		<Unit filename="src/basis/Structures.cpp" />
+		<Unit filename="src/basis/Structures.h" />
 		<Unit filename="src/basis/Triangle.cpp" />
 		<Unit filename="src/basis/Triangle.h" />
+		<Unit filename="src/basis/afile.dat" />
 		<Unit filename="src/main/main.cpp">
 			<Option target="main" />
 		</Unit>
