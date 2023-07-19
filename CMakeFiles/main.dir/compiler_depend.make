@@ -19,6 +19,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   src/basis/StorageClass.h \
   src/basis/Streams.h \
   src/basis/Strings.h \
+  src/basis/Structures.h \
   src/add/add.h \
   src/mul/mul.h \
   src/sub/sub.h \
@@ -309,10 +310,6 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/bits/stringfwd.h:
 
-/usr/include/bits/libc-header-start.h:
-
-src/basis/DateTime.h:
-
 /usr/include/bits/floatn.h:
 
 /usr/include/bits/types/mbstate_t.h:
@@ -363,6 +360,10 @@ src/basis/References.h:
 
 /usr/include/bits/locale.h:
 
+/usr/include/bits/libc-header-start.h:
+
+src/basis/DateTime.h:
+
 /usr/include/bits/wordsize.h:
 
 /usr/include/bits/types/struct_tm.h:
@@ -395,7 +396,17 @@ src/basis/Func.h:
 
 /usr/include/c++/13.1.1/bits/cxxabi_init_exception.h:
 
+/usr/include/stdc-predef.h:
+
+src/basis/Numbers.h:
+
+src/basis/Structures.h:
+
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
+
+/usr/include/bits/pthreadtypes-arch.h:
+
+/usr/include/gnu/stubs.h:
 
 /usr/include/errno.h:
 
@@ -413,13 +424,9 @@ src/basis/Operators.h:
 
 /usr/include/c++/13.1.1/string:
 
-src/basis/Numbers.h:
+/usr/include/sys/cdefs.h:
 
-/usr/include/stdc-predef.h:
-
-/usr/include/gnu/stubs.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
+src/basis/Strings.h:
 
 /usr/include/bits/pthreadtypes.h:
 
@@ -462,10 +469,6 @@ src/basis/Constants.h:
 src/basis/Arrays.h:
 
 /usr/include/c++/13.1.1/clocale:
-
-src/basis/Strings.h:
-
-/usr/include/sys/cdefs.h:
 
 /usr/include/c++/13.1.1/typeinfo:
 

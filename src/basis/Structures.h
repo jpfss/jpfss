@@ -14,6 +14,7 @@ public:
     char subject[100];
     int book_id;
   } book;
+  void printBook(struct Structures::Books book);
 
 protected:
 private:

@@ -22,12 +22,20 @@ Structures &Structures::operator=(const Structures &rhs) {
   return *this;
 }
 
+void printBook(struct Structures::Books book) {
+  cout << "Book title : " << book.title << endl;
+  cout << "Book author : " << book.author << endl;
+  cout << "Book subject : " << book.subject << endl;
+  cout << "Book id : " << book.book_id << endl;
+}
+
 void Structures::go() {
 
   cout << "++++++++++++++++++++++++++CPP's Struct++++++++++++++++++++++++++"
        << endl;
-  struct Books Book1; // Declare Book1 of type Book
-  struct Books Book2; // Declare Book2 of type Book
+  // Accessing Structure Members
+  struct Structures::Books Book1; // Declare Book1 of type Book
+  struct Structures::Books Book2; // Declare Book2 of type Book
 
   // book 1 specification
   strcpy(Book1.title, "Learn C++ Programming");
@@ -52,4 +60,11 @@ void Structures::go() {
   cout << "Book 2 author : " << Book2.author << endl;
   cout << "Book 2 subject : " << Book2.subject << endl;
   cout << "Book 2 id : " << Book2.book_id << endl;
+
+  // Structures as Function Arguments
+  // Print Book1 info
+  // printBook(Book1);
+
+  // Print Book2 info
+  // printBook(Book2);
 }
