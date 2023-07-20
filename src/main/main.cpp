@@ -1,3 +1,4 @@
+#include "Abstraction.h"
 #include "Arrays.h"
 #include "Box.h"
 #include "Clazz.h"
@@ -98,5 +99,7 @@ int main() {
   Triangle triangle;
   triangle.go();
 
+  Abstraction abstraction;
+  abstraction.go();
   return 0;
 }

@@ -3,6 +3,7 @@
 
 CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   /usr/include/stdc-predef.h \
+  src/basis/Abstraction.h \
   src/basis/Arrays.h \
   src/basis/Box.h \
   src/basis/Clazz.h \
@@ -314,8 +315,6 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/bits/concept_check.h:
 
-/usr/include/bits/types/__FILE.h:
-
 /usr/include/c++/13.1.1/bits/basic_string.tcc:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/stdarg.h:
@@ -323,6 +322,8 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 src/basis/Rectangle.h:
 
 /usr/include/bits/floatn.h:
+
+/usr/include/bits/types/__FILE.h:
 
 /usr/include/bits/types/mbstate_t.h:
 
@@ -340,11 +341,7 @@ src/add/add.h:
 
 /usr/include/bits/wordsize.h:
 
-/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
-
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
-
-src/basis/ModifierTypes.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/stddef.h:
 
@@ -384,6 +381,10 @@ src/sub/sub.h:
 
 /usr/include/time.h:
 
+/usr/include/c++/13.1.1/bits/cxxabi_forced.h:
+
+/usr/include/features-time64.h:
+
 src/basis/Arrays.h:
 
 /usr/include/c++/13.1.1/clocale:
@@ -397,6 +398,20 @@ src/basis/Arrays.h:
 /usr/include/bits/types/__locale_t.h:
 
 /usr/include/sched.h:
+
+/usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
+
+src/basis/Abstraction.h:
+
+src/mul/mul.h:
+
+/usr/include/wctype.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/bits/timex.h:
+
+src/basis/ModifierTypes.h:
 
 src/basis/LoopTypes.h:
 
@@ -432,6 +447,12 @@ src/basis/PaintCost.h:
 
 /usr/include/bits/pthread_stack_min-dynamic.h:
 
+src/basis/StorageClass.h:
+
+/usr/include/c++/13.1.1/initializer_list:
+
+/usr/include/c++/13.1.1/cctype:
+
 src/basis/Structures.h:
 
 /usr/include/c++/13.1.1/bits/nested_exception.h:
@@ -452,12 +473,6 @@ src/basis/Streams.h:
 
 /usr/include/c++/13.1.1/bits/cpp_type_traits.h:
 
-src/basis/StorageClass.h:
-
-/usr/include/c++/13.1.1/initializer_list:
-
-/usr/include/c++/13.1.1/cctype:
-
 src/basis/Operators.h:
 
 /usr/include/c++/13.1.1/bits/invoke.h:
@@ -475,14 +490,6 @@ src/basis/Strings.h:
 /usr/include/gnu/stubs-64.h:
 
 src/basis/Pointers.h:
-
-src/mul/mul.h:
-
-/usr/include/wctype.h:
-
-/usr/include/bits/errno.h:
-
-/usr/include/bits/timex.h:
 
 /usr/include/c++/13.1.1/iostream:
 
@@ -607,10 +614,6 @@ src/basis/Decisions.h:
 /usr/include/sys/single_threaded.h:
 
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
-
-/usr/include/features-time64.h:
-
-/usr/include/c++/13.1.1/bits/cxxabi_forced.h:
 
 /usr/include/c++/13.1.1/bits/postypes.h:
 
