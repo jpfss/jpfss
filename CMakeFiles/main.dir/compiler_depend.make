@@ -204,6 +204,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   src/basis/PaintCost.h \
   src/basis/Shapes.h \
   src/basis/References.h \
+  src/basis/SignalHandling.h \
   src/basis/StorageClass.h \
   src/basis/Streams.h \
   src/basis/Strings.h \
@@ -288,6 +289,8 @@ src/basis/LoopTypes.h:
 /usr/include/asm-generic/errno.h:
 
 /usr/include/c++/13.1.1/bits/uniform_int_dist.h:
+
+src/basis/SignalHandling.h:
 
 /usr/include/linux/errno.h:
 

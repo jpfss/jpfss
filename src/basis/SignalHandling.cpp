@@ -39,12 +39,12 @@ void SignalHandling::go() {
        << endl;
 
   // register signal SIGINT and signal handler
-  signal(SIGINT, signalHandler);
+  // signal(SIGINT, signalHandler);
 
-  while (1) {
-    cout << "Going to sleep...." << endl;
-    sleep(1);
-  }
+  // while (1) {
+  // cout << "Going to sleep...." << endl;
+  // sleep(1);
+  //}
 
   int i = 0;
   // register signal SIGINT and signal handler
