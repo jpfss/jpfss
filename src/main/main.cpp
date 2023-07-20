@@ -11,6 +11,7 @@
 #include "Func.h"
 #include "IO.h"
 #include "LoopTypes.h"
+#include "Memory.h"
 #include "ModifierTypes.h"
 #include "Numbers.h"
 #include "Operators.h"
@@ -111,5 +112,8 @@ int main() {
 
   Exceptions exp;
   exp.go();
+
+  Memory memory;
+  memory.go();
   return 0;
 }
