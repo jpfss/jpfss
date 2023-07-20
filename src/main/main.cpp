@@ -7,6 +7,7 @@
 #include "DateTime.h"
 #include "Decisions.h"
 #include "Encapsulation.h"
+#include "Exceptions.h"
 #include "Func.h"
 #include "IO.h"
 #include "LoopTypes.h"
@@ -107,5 +108,8 @@ int main() {
 
   Encapsulation encapsulation;
   encapsulation.go();
+
+  Exceptions exp;
+  exp.go();
   return 0;
 }

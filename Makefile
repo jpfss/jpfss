@@ -421,6 +421,30 @@ src/basis/Encapsulation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Encapsulation.cpp.s
 .PHONY : src/basis/Encapsulation.cpp.s
 
+src/basis/Exceptions.o: src/basis/Exceptions.cpp.o
+.PHONY : src/basis/Exceptions.o
+
+# target to build an object file
+src/basis/Exceptions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Exceptions.cpp.o
+.PHONY : src/basis/Exceptions.cpp.o
+
+src/basis/Exceptions.i: src/basis/Exceptions.cpp.i
+.PHONY : src/basis/Exceptions.i
+
+# target to preprocess a source file
+src/basis/Exceptions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Exceptions.cpp.i
+.PHONY : src/basis/Exceptions.cpp.i
+
+src/basis/Exceptions.s: src/basis/Exceptions.cpp.s
+.PHONY : src/basis/Exceptions.s
+
+# target to generate assembly for a file
+src/basis/Exceptions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Exceptions.cpp.s
+.PHONY : src/basis/Exceptions.cpp.s
+
 src/basis/Func.o: src/basis/Func.cpp.o
 .PHONY : src/basis/Func.o
 
@@ -920,6 +944,9 @@ help:
 	@echo "... src/basis/Encapsulation.o"
 	@echo "... src/basis/Encapsulation.i"
 	@echo "... src/basis/Encapsulation.s"
+	@echo "... src/basis/Exceptions.o"
+	@echo "... src/basis/Exceptions.i"
+	@echo "... src/basis/Exceptions.s"
 	@echo "... src/basis/Func.o"
 	@echo "... src/basis/Func.i"
 	@echo "... src/basis/Func.s"

@@ -13,6 +13,9 @@ Streams::~Streams() {
 
 void Streams::go() {
 
+  cout << "++++++++++++++++++++++++++CPP's Files and "
+          "Streams++++++++++++++++++++++++++"
+       << endl;
   char data[100];
 
   // open a file in write mode.

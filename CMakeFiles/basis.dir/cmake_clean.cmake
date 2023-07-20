@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/basis.dir/src/basis/Decisions.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/Encapsulation.cpp.o"
   "CMakeFiles/basis.dir/src/basis/Encapsulation.cpp.o.d"
+  "CMakeFiles/basis.dir/src/basis/Exceptions.cpp.o"
+  "CMakeFiles/basis.dir/src/basis/Exceptions.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/Func.cpp.o"
   "CMakeFiles/basis.dir/src/basis/Func.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/IO.cpp.o"
