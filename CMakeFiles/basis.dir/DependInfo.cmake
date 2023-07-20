@@ -39,6 +39,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Strings.cpp" "CMakeFiles/basis.dir/src/basis/Strings.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Strings.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Structures.cpp" "CMakeFiles/basis.dir/src/basis/Structures.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Structures.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Templates.cpp" "CMakeFiles/basis.dir/src/basis/Templates.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Templates.cpp.o.d"
+  "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Threads.cpp" "CMakeFiles/basis.dir/src/basis/Threads.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Threads.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Triangle.cpp" "CMakeFiles/basis.dir/src/basis/Triangle.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Triangle.cpp.o.d"
   )
 

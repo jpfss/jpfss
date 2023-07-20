@@ -210,6 +210,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   src/basis/Strings.h \
   src/basis/Structures.h \
   src/basis/Templates.h \
+  src/basis/Threads.h \
   src/basis/Triangle.h \
   src/add/add.h \
   src/mul/mul.h \
@@ -235,6 +236,8 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 src/mul/mul.h:
 
 src/add/add.h:
+
+src/basis/Threads.h:
 
 src/basis/Templates.h:
 

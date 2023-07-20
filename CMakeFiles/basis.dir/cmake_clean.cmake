@@ -61,6 +61,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/basis.dir/src/basis/Structures.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/Templates.cpp.o"
   "CMakeFiles/basis.dir/src/basis/Templates.cpp.o.d"
+  "CMakeFiles/basis.dir/src/basis/Threads.cpp.o"
+  "CMakeFiles/basis.dir/src/basis/Threads.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/Triangle.cpp.o"
   "CMakeFiles/basis.dir/src/basis/Triangle.cpp.o.d"
   "lib/libbasis.pdb"

@@ -949,6 +949,30 @@ src/basis/Templates.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Templates.cpp.s
 .PHONY : src/basis/Templates.cpp.s
 
+src/basis/Threads.o: src/basis/Threads.cpp.o
+.PHONY : src/basis/Threads.o
+
+# target to build an object file
+src/basis/Threads.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Threads.cpp.o
+.PHONY : src/basis/Threads.cpp.o
+
+src/basis/Threads.i: src/basis/Threads.cpp.i
+.PHONY : src/basis/Threads.i
+
+# target to preprocess a source file
+src/basis/Threads.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Threads.cpp.i
+.PHONY : src/basis/Threads.cpp.i
+
+src/basis/Threads.s: src/basis/Threads.cpp.s
+.PHONY : src/basis/Threads.s
+
+# target to generate assembly for a file
+src/basis/Threads.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Threads.cpp.s
+.PHONY : src/basis/Threads.cpp.s
+
 src/basis/Triangle.o: src/basis/Triangle.cpp.o
 .PHONY : src/basis/Triangle.o
 
@@ -1154,6 +1178,9 @@ help:
 	@echo "... src/basis/Templates.o"
 	@echo "... src/basis/Templates.i"
 	@echo "... src/basis/Templates.s"
+	@echo "... src/basis/Threads.o"
+	@echo "... src/basis/Threads.i"
+	@echo "... src/basis/Threads.s"
 	@echo "... src/basis/Triangle.o"
 	@echo "... src/basis/Triangle.i"
 	@echo "... src/basis/Triangle.s"

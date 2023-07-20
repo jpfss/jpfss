@@ -26,6 +26,7 @@
 #include "Strings.h"
 #include "Structures.h"
 #include "Templates.h"
+#include "Threads.h"
 #include "Triangle.h"
 #include "add.h"
 #include "mul.h"
@@ -132,5 +133,8 @@ int main() {
 
   SignalHandling signalHandling;
   signalHandling.go();
+
+  Threads threads;
+  threads.go();
   return 0;
 }
