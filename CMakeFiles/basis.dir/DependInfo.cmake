@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Abstraction.cpp" "CMakeFiles/basis.dir/src/basis/Abstraction.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Abstraction.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Arrays.cpp" "CMakeFiles/basis.dir/src/basis/Arrays.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Arrays.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Box.cpp" "CMakeFiles/basis.dir/src/basis/Box.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Box.cpp.o.d"
+  "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/CGI.cpp" "CMakeFiles/basis.dir/src/basis/CGI.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/CGI.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Clazz.cpp" "CMakeFiles/basis.dir/src/basis/Clazz.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Clazz.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Constants.cpp" "CMakeFiles/basis.dir/src/basis/Constants.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Constants.cpp.o.d"
   "/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Datatype.cpp" "CMakeFiles/basis.dir/src/basis/Datatype.cpp.o" "gcc" "CMakeFiles/basis.dir/src/basis/Datatype.cpp.o.d"

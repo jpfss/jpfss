@@ -1,6 +1,7 @@
 #include "Abstraction.h"
 #include "Arrays.h"
 #include "Box.h"
+#include "CGI.h"
 #include "Clazz.h"
 #include "Constants.h"
 #include "Datatype.h"
@@ -136,5 +137,8 @@ int main() {
 
   Threads threads;
   threads.go();
+
+  CGI cgi;
+  cgi.go();
   return 0;
 }
