@@ -50,6 +50,13 @@ void Rectangle::go() {
 
   // call rectangle area.
   shape->area();
+
+  Rectangle rectangle;
+
+  rectangle.setWidth(5);
+  rectangle.setHeight(7);
+  // Print the area of the object.
+  cout << "Total Rectangle area: " << Rect.getArea() << endl;
 }
 
 Rectangle::Rectangle(int a, int b) : Shapes(a, b){};
