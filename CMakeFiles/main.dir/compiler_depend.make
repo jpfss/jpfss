@@ -11,6 +11,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   src/basis/Datatype.h \
   src/basis/DateTime.h \
   src/basis/Decisions.h \
+  src/basis/Encapsulation.h \
   src/basis/Func.h \
   src/basis/IO.h \
   src/basis/LoopTypes.h \
@@ -206,7 +207,9 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   /usr/include/c++/13.1.1/bits/basic_ios.tcc \
   /usr/include/c++/13.1.1/bits/ostream.tcc \
   /usr/include/c++/13.1.1/istream \
-  /usr/include/c++/13.1.1/bits/istream.tcc
+  /usr/include/c++/13.1.1/bits/istream.tcc \
+  /usr/include/c++/13.1.1/iterator \
+  /usr/include/c++/13.1.1/bits/stream_iterator.h
 
 
 /usr/include/c++/13.1.1/bits/istream.tcc:
@@ -315,6 +318,8 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 
 /usr/include/c++/13.1.1/bits/concept_check.h:
 
+/usr/include/c++/13.1.1/bits/stream_iterator.h:
+
 /usr/include/c++/13.1.1/bits/basic_string.tcc:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/stdarg.h:
@@ -343,6 +348,20 @@ src/add/add.h:
 
 /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
 
+/usr/include/errno.h:
+
+/usr/include/c++/13.1.1/bits/cpp_type_traits.h:
+
+/usr/include/c++/13.1.1/bits/new_allocator.h:
+
+src/basis/StorageClass.h:
+
+/usr/include/c++/13.1.1/initializer_list:
+
+/usr/include/c++/13.1.1/cctype:
+
+src/basis/Structures.h:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/stddef.h:
 
 src/basis/Box.h:
@@ -363,19 +382,17 @@ src/basis/Box.h:
 
 src/basis/DateTime.h:
 
+/usr/include/c++/13.1.1/bits/stl_iterator_base_funcs.h:
+
+src/sub/sub.h:
+
+/usr/include/bits/wchar.h:
+
 /usr/include/bits/types/struct_tm.h:
 
 src/basis/Datatype.h:
 
 /usr/include/bits/types.h:
-
-/usr/include/c++/13.1.1/bits/stl_iterator_base_funcs.h:
-
-/usr/include/bits/wchar.h:
-
-src/sub/sub.h:
-
-/usr/include/c++/13.1.1/bits/new_allocator.h:
 
 /usr/include/c++/13.1.1/bits/stl_iterator.h:
 
@@ -411,6 +428,14 @@ src/mul/mul.h:
 
 /usr/include/bits/timex.h:
 
+/usr/include/stdc-predef.h:
+
+src/basis/Numbers.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/bits/pthreadtypes-arch.h:
+
 src/basis/ModifierTypes.h:
 
 src/basis/LoopTypes.h:
@@ -419,15 +444,17 @@ src/basis/Func.h:
 
 /usr/include/c++/13.1.1/bits/cxxabi_init_exception.h:
 
-/usr/include/stdc-predef.h:
-
-src/basis/Numbers.h:
-
 /usr/include/c++/13.1.1/bits/memoryfwd.h:
 
 /usr/include/c++/13.1.1/ostream:
 
+/usr/include/c++/13.1.1/bits/ostream_insert.h:
+
+/usr/include/bits/types/clockid_t.h:
+
 /usr/include/bits/atomic_wide_counter.h:
+
+src/basis/Encapsulation.h:
 
 /usr/include/bits/long-double.h:
 
@@ -447,14 +474,6 @@ src/basis/PaintCost.h:
 
 /usr/include/bits/pthread_stack_min-dynamic.h:
 
-src/basis/StorageClass.h:
-
-/usr/include/c++/13.1.1/initializer_list:
-
-/usr/include/c++/13.1.1/cctype:
-
-src/basis/Structures.h:
-
 /usr/include/c++/13.1.1/bits/nested_exception.h:
 
 /usr/include/c++/13.1.1/bits/requires_hosted.h:
@@ -464,14 +483,6 @@ src/main/main.cpp:
 src/basis/Streams.h:
 
 /usr/include/bits/types/__sigset_t.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/usr/include/gnu/stubs.h:
-
-/usr/include/errno.h:
-
-/usr/include/c++/13.1.1/bits/cpp_type_traits.h:
 
 src/basis/Operators.h:
 
@@ -490,6 +501,8 @@ src/basis/Strings.h:
 /usr/include/gnu/stubs-64.h:
 
 src/basis/Pointers.h:
+
+/usr/include/c++/13.1.1/iterator:
 
 /usr/include/c++/13.1.1/iostream:
 
@@ -570,10 +583,6 @@ src/basis/Triangle.h:
 /usr/include/pthread.h:
 
 /usr/include/bits/sched.h:
-
-/usr/include/bits/types/clockid_t.h:
-
-/usr/include/c++/13.1.1/bits/ostream_insert.h:
 
 /usr/include/bits/types/struct_sched_param.h:
 
