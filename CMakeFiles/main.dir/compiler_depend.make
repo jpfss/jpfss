@@ -195,6 +195,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   src/basis/LoopTypes.h \
   src/basis/Memory.h \
   src/basis/ModifierTypes.h \
+  src/basis/Namespaces.h \
   src/basis/Numbers.h \
   src/basis/Operators.h \
   src/basis/Pointers.h \
@@ -206,6 +207,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   src/basis/Streams.h \
   src/basis/Strings.h \
   src/basis/Structures.h \
+  src/basis/Templates.h \
   src/basis/Triangle.h \
   src/add/add.h \
   src/mul/mul.h \
@@ -217,6 +219,8 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
 src/mul/mul.h:
 
 src/add/add.h:
+
+src/basis/Templates.h:
 
 src/basis/Structures.h:
 
@@ -573,6 +577,8 @@ src/basis/Arrays.h:
 /usr/include/bits/struct_mutex.h:
 
 /usr/include/bits/setjmp.h:
+
+src/basis/Namespaces.h:
 
 /usr/include/bits/types/struct___jmp_buf_tag.h:
 

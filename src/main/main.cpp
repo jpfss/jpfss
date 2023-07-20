@@ -23,6 +23,7 @@
 #include "Streams.h"
 #include "Strings.h"
 #include "Structures.h"
+#include "Templates.h"
 #include "Triangle.h"
 #include "add.h"
 #include "mul.h"
@@ -119,5 +120,8 @@ int main() {
 
   Namespaces namespaces;
   namespaces.go();
+
+  Templates templates;
+  templates.go();
   return 0;
 }

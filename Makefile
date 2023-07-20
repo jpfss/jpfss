@@ -757,6 +757,30 @@ src/basis/Shapes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Shapes.cpp.s
 .PHONY : src/basis/Shapes.cpp.s
 
+src/basis/Stacks.o: src/basis/Stacks.cpp.o
+.PHONY : src/basis/Stacks.o
+
+# target to build an object file
+src/basis/Stacks.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Stacks.cpp.o
+.PHONY : src/basis/Stacks.cpp.o
+
+src/basis/Stacks.i: src/basis/Stacks.cpp.i
+.PHONY : src/basis/Stacks.i
+
+# target to preprocess a source file
+src/basis/Stacks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Stacks.cpp.i
+.PHONY : src/basis/Stacks.cpp.i
+
+src/basis/Stacks.s: src/basis/Stacks.cpp.s
+.PHONY : src/basis/Stacks.s
+
+# target to generate assembly for a file
+src/basis/Stacks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Stacks.cpp.s
+.PHONY : src/basis/Stacks.cpp.s
+
 src/basis/StorageClass.o: src/basis/StorageClass.cpp.o
 .PHONY : src/basis/StorageClass.o
 
@@ -852,6 +876,30 @@ src/basis/Structures.s: src/basis/Structures.cpp.s
 src/basis/Structures.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Structures.cpp.s
 .PHONY : src/basis/Structures.cpp.s
+
+src/basis/Templates.o: src/basis/Templates.cpp.o
+.PHONY : src/basis/Templates.o
+
+# target to build an object file
+src/basis/Templates.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Templates.cpp.o
+.PHONY : src/basis/Templates.cpp.o
+
+src/basis/Templates.i: src/basis/Templates.cpp.i
+.PHONY : src/basis/Templates.i
+
+# target to preprocess a source file
+src/basis/Templates.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Templates.cpp.i
+.PHONY : src/basis/Templates.cpp.i
+
+src/basis/Templates.s: src/basis/Templates.cpp.s
+.PHONY : src/basis/Templates.s
+
+# target to generate assembly for a file
+src/basis/Templates.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Templates.cpp.s
+.PHONY : src/basis/Templates.cpp.s
 
 src/basis/Triangle.o: src/basis/Triangle.cpp.o
 .PHONY : src/basis/Triangle.o
@@ -1034,6 +1082,9 @@ help:
 	@echo "... src/basis/Shapes.o"
 	@echo "... src/basis/Shapes.i"
 	@echo "... src/basis/Shapes.s"
+	@echo "... src/basis/Stacks.o"
+	@echo "... src/basis/Stacks.i"
+	@echo "... src/basis/Stacks.s"
 	@echo "... src/basis/StorageClass.o"
 	@echo "... src/basis/StorageClass.i"
 	@echo "... src/basis/StorageClass.s"
@@ -1046,6 +1097,9 @@ help:
 	@echo "... src/basis/Structures.o"
 	@echo "... src/basis/Structures.i"
 	@echo "... src/basis/Structures.s"
+	@echo "... src/basis/Templates.o"
+	@echo "... src/basis/Templates.i"
+	@echo "... src/basis/Templates.s"
 	@echo "... src/basis/Triangle.o"
 	@echo "... src/basis/Triangle.i"
 	@echo "... src/basis/Triangle.s"
