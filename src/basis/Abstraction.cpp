@@ -24,7 +24,7 @@ Abstraction &Abstraction::operator=(const Abstraction &rhs) {
 void Abstraction::go() {
 
   cout << "++++++++++++++++++++++++++CPP's "
-          "Abstraction(数据和方法封装)++++++++++++++++++++++++++"
+          "Abstraction(抽象数据)++++++++++++++++++++++++++"
        << endl;
   // Data Abstraction Example
   Abstraction a;

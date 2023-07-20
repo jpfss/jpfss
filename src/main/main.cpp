@@ -6,6 +6,7 @@
 #include "Datatype.h"
 #include "DateTime.h"
 #include "Decisions.h"
+#include "Encapsulation.h"
 #include "Func.h"
 #include "IO.h"
 #include "LoopTypes.h"
@@ -24,6 +25,7 @@
 #include "mul.h"
 #include "sub.h"
 #include <iostream>
+#include <iterator>
 using namespace std;
 
 int main() {
@@ -101,5 +103,8 @@ int main() {
 
   Abstraction abstraction;
   abstraction.go();
+
+  Encapsulation encapsulation;
+  encapsulation.go();
   return 0;
 }
