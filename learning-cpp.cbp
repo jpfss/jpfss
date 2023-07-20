@@ -301,6 +301,8 @@
 		<Unit filename="src/basis/Arrays.h" />
 		<Unit filename="src/basis/Box.cpp" />
 		<Unit filename="src/basis/Box.h" />
+		<Unit filename="src/basis/CGI.cpp" />
+		<Unit filename="src/basis/CGI.h" />
 		<Unit filename="src/basis/Clazz.cpp" />
 		<Unit filename="src/basis/Clazz.h" />
 		<Unit filename="src/basis/Constants.cpp" />
@@ -335,6 +337,8 @@
 		<Unit filename="src/basis/References.h" />
 		<Unit filename="src/basis/Shapes.cpp" />
 		<Unit filename="src/basis/Shapes.h" />
+		<Unit filename="src/basis/SignalHandling.cpp" />
+		<Unit filename="src/basis/SignalHandling.h" />
 		<Unit filename="src/basis/StorageClass.cpp" />
 		<Unit filename="src/basis/StorageClass.h" />
 		<Unit filename="src/basis/Streams.cpp" />
@@ -343,6 +347,8 @@
 		<Unit filename="src/basis/Strings.h" />
 		<Unit filename="src/basis/Structures.cpp" />
 		<Unit filename="src/basis/Structures.h" />
+		<Unit filename="src/basis/Threads.cpp" />
+		<Unit filename="src/basis/Threads.h" />
 		<Unit filename="src/basis/Triangle.cpp" />
 		<Unit filename="src/basis/Triangle.h" />
 		<Unit filename="src/basis/afile.dat" />
