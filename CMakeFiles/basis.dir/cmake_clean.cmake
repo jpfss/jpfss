@@ -29,6 +29,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/basis.dir/src/basis/Memory.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/ModifierTypes.cpp.o"
   "CMakeFiles/basis.dir/src/basis/ModifierTypes.cpp.o.d"
+  "CMakeFiles/basis.dir/src/basis/Namespaces.cpp.o"
+  "CMakeFiles/basis.dir/src/basis/Namespaces.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/Numbers.cpp.o"
   "CMakeFiles/basis.dir/src/basis/Numbers.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/Operators.cpp.o"

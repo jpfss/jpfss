@@ -13,6 +13,7 @@
 #include "LoopTypes.h"
 #include "Memory.h"
 #include "ModifierTypes.h"
+#include "Namespaces.h"
 #include "Numbers.h"
 #include "Operators.h"
 #include "Pointers.h"
@@ -115,5 +116,8 @@ int main() {
 
   Memory memory;
   memory.go();
+
+  Namespaces namespaces;
+  namespaces.go();
   return 0;
 }

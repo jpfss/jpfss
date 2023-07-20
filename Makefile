@@ -565,6 +565,30 @@ src/basis/ModifierTypes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/ModifierTypes.cpp.s
 .PHONY : src/basis/ModifierTypes.cpp.s
 
+src/basis/Namespaces.o: src/basis/Namespaces.cpp.o
+.PHONY : src/basis/Namespaces.o
+
+# target to build an object file
+src/basis/Namespaces.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Namespaces.cpp.o
+.PHONY : src/basis/Namespaces.cpp.o
+
+src/basis/Namespaces.i: src/basis/Namespaces.cpp.i
+.PHONY : src/basis/Namespaces.i
+
+# target to preprocess a source file
+src/basis/Namespaces.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Namespaces.cpp.i
+.PHONY : src/basis/Namespaces.cpp.i
+
+src/basis/Namespaces.s: src/basis/Namespaces.cpp.s
+.PHONY : src/basis/Namespaces.s
+
+# target to generate assembly for a file
+src/basis/Namespaces.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Namespaces.cpp.s
+.PHONY : src/basis/Namespaces.cpp.s
+
 src/basis/Numbers.o: src/basis/Numbers.cpp.o
 .PHONY : src/basis/Numbers.o
 
@@ -986,6 +1010,9 @@ help:
 	@echo "... src/basis/ModifierTypes.o"
 	@echo "... src/basis/ModifierTypes.i"
 	@echo "... src/basis/ModifierTypes.s"
+	@echo "... src/basis/Namespaces.o"
+	@echo "... src/basis/Namespaces.i"
+	@echo "... src/basis/Namespaces.s"
 	@echo "... src/basis/Numbers.o"
 	@echo "... src/basis/Numbers.i"
 	@echo "... src/basis/Numbers.s"
