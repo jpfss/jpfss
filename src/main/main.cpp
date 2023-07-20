@@ -20,6 +20,7 @@
 #include "Preprocessor.h"
 #include "Rectangle.h"
 #include "References.h"
+#include "SignalHandling.h"
 #include "StorageClass.h"
 #include "Streams.h"
 #include "Strings.h"
@@ -128,5 +129,8 @@ int main() {
 
   Preprocessor preprocessor;
   preprocessor.go();
+
+  SignalHandling signalHandling;
+  signalHandling.go();
   return 0;
 }

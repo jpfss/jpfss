@@ -199,6 +199,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   src/basis/Numbers.h \
   src/basis/Operators.h \
   src/basis/Pointers.h \
+  src/basis/Preprocessor.h \
   src/basis/Rectangle.h \
   src/basis/PaintCost.h \
   src/basis/Shapes.h \
@@ -212,9 +213,23 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   src/add/add.h \
   src/mul/mul.h \
   src/sub/sub.h \
+  /usr/include/c++/13.1.1/algorithm \
+  /usr/include/c++/13.1.1/bits/stl_algo.h \
+  /usr/include/c++/13.1.1/bits/algorithmfwd.h \
+  /usr/include/c++/13.1.1/bits/stl_heap.h \
+  /usr/include/c++/13.1.1/bits/uniform_int_dist.h \
+  /usr/include/c++/13.1.1/bits/stl_tempbuf.h \
   /usr/include/c++/13.1.1/iterator \
   /usr/include/c++/13.1.1/bits/stream_iterator.h
 
+
+/usr/include/c++/13.1.1/bits/stl_tempbuf.h:
+
+/usr/include/c++/13.1.1/bits/stl_heap.h:
+
+/usr/include/c++/13.1.1/bits/algorithmfwd.h:
+
+/usr/include/c++/13.1.1/algorithm:
 
 src/mul/mul.h:
 
@@ -232,7 +247,11 @@ src/basis/PaintCost.h:
 
 src/basis/Rectangle.h:
 
+src/basis/Preprocessor.h:
+
 src/basis/Operators.h:
+
+/usr/include/c++/13.1.1/bits/stl_algo.h:
 
 src/basis/Numbers.h:
 
@@ -267,6 +286,8 @@ src/basis/LoopTypes.h:
 /usr/include/bits/types/error_t.h:
 
 /usr/include/asm-generic/errno.h:
+
+/usr/include/c++/13.1.1/bits/uniform_int_dist.h:
 
 /usr/include/linux/errno.h:
 

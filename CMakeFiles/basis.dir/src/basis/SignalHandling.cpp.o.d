@@ -1,18 +1,8 @@
-CMakeFiles/main.dir/src/main/main.cpp.o: \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/main/main.cpp \
+CMakeFiles/basis.dir/src/basis/SignalHandling.cpp.o: \
+ /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/SignalHandling.cpp \
  /usr/include/stdc-predef.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Abstraction.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Arrays.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Box.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Clazz.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Constants.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Datatype.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/DateTime.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Decisions.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Encapsulation.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Exceptions.h \
- /usr/include/c++/13.1.1/iostream \
- /usr/include/c++/13.1.1/bits/requires_hosted.h \
+ /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/SignalHandling.h \
+ /usr/include/c++/13.1.1/csignal \
  /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -20,13 +10,39 @@ CMakeFiles/main.dir/src/main/main.cpp.o: \
  /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+ /usr/include/signal.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
+ /usr/include/bits/signum-generic.h /usr/include/bits/signum-arch.h \
+ /usr/include/bits/types/sig_atomic_t.h \
+ /usr/include/bits/types/sigset_t.h /usr/include/bits/types/__sigset_t.h \
+ /usr/include/bits/types/struct_timespec.h /usr/include/bits/endian.h \
+ /usr/include/bits/endianness.h /usr/include/bits/types/time_t.h \
+ /usr/include/bits/types/siginfo_t.h /usr/include/bits/types/__sigval_t.h \
+ /usr/include/bits/siginfo-arch.h /usr/include/bits/siginfo-consts.h \
+ /usr/include/bits/siginfo-consts-arch.h \
+ /usr/include/bits/types/sigval_t.h /usr/include/bits/types/sigevent_t.h \
+ /usr/include/bits/sigevent-consts.h /usr/include/bits/sigaction.h \
+ /usr/include/bits/sigcontext.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/stddef.h \
+ /usr/include/bits/types/stack_t.h /usr/include/sys/ucontext.h \
+ /usr/include/bits/sigstack.h /usr/include/bits/sigstksz.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
+ /usr/include/bits/unistd_ext.h /usr/include/linux/close_range.h \
+ /usr/include/bits/ss_flags.h /usr/include/bits/types/struct_sigstack.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
+ /usr/include/bits/pthreadtypes-arch.h \
+ /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
+ /usr/include/bits/struct_rwlock.h /usr/include/bits/sigthread.h \
+ /usr/include/bits/signal_ext.h /usr/include/c++/13.1.1/iostream \
+ /usr/include/c++/13.1.1/bits/requires_hosted.h \
  /usr/include/c++/13.1.1/ostream /usr/include/c++/13.1.1/ios \
  /usr/include/c++/13.1.1/iosfwd /usr/include/c++/13.1.1/bits/stringfwd.h \
  /usr/include/c++/13.1.1/bits/memoryfwd.h \
  /usr/include/c++/13.1.1/bits/postypes.h /usr/include/c++/13.1.1/cwchar \
  /usr/include/wchar.h /usr/include/bits/libc-header-start.h \
  /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/stddef.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/stdarg.h \
  /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
  /usr/include/bits/types/mbstate_t.h \
@@ -46,27 +62,17 @@ CMakeFiles/main.dir/src/main/main.cpp.o: \
  /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++locale.h \
  /usr/include/c++/13.1.1/clocale /usr/include/locale.h \
  /usr/include/bits/locale.h /usr/include/c++/13.1.1/cctype \
- /usr/include/ctype.h /usr/include/bits/types.h \
- /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
- /usr/include/bits/endian.h /usr/include/bits/endianness.h \
- /usr/include/c++/13.1.1/bits/ios_base.h \
+ /usr/include/ctype.h /usr/include/c++/13.1.1/bits/ios_base.h \
  /usr/include/c++/13.1.1/ext/atomicity.h \
  /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/gthr.h \
  /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
- /usr/include/pthread.h /usr/include/sched.h \
- /usr/include/bits/types/time_t.h \
- /usr/include/bits/types/struct_timespec.h /usr/include/bits/sched.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
  /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
  /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
  /usr/include/bits/types/struct_timeval.h \
  /usr/include/bits/types/clock_t.h /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/clockid_t.h /usr/include/bits/types/timer_t.h \
- /usr/include/bits/types/struct_itimerspec.h \
- /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
- /usr/include/bits/pthreadtypes-arch.h \
- /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
- /usr/include/bits/struct_rwlock.h /usr/include/bits/setjmp.h \
- /usr/include/bits/types/__sigset_t.h \
+ /usr/include/bits/types/struct_itimerspec.h /usr/include/bits/setjmp.h \
  /usr/include/bits/types/struct___jmp_buf_tag.h \
  /usr/include/bits/pthread_stack_min-dynamic.h \
  /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
@@ -108,11 +114,11 @@ CMakeFiles/main.dir/src/main/main.cpp.o: \
  /usr/include/sys/types.h /usr/include/bits/stdint-intn.h \
  /usr/include/endian.h /usr/include/bits/byteswap.h \
  /usr/include/bits/uintn-identity.h /usr/include/sys/select.h \
- /usr/include/bits/select.h /usr/include/bits/types/sigset_t.h \
- /usr/include/alloca.h /usr/include/bits/stdlib-bsearch.h \
- /usr/include/bits/stdlib-float.h /usr/include/c++/13.1.1/bits/std_abs.h \
- /usr/include/c++/13.1.1/cstdio /usr/include/stdio.h \
- /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__fpos64_t.h \
+ /usr/include/bits/select.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
+ /usr/include/c++/13.1.1/bits/std_abs.h /usr/include/c++/13.1.1/cstdio \
+ /usr/include/stdio.h /usr/include/bits/types/__fpos_t.h \
+ /usr/include/bits/types/__fpos64_t.h \
  /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/stdio.h \
@@ -138,36 +144,4 @@ CMakeFiles/main.dir/src/main/main.cpp.o: \
  /usr/include/c++/13.1.1/bits/locale_facets.tcc \
  /usr/include/c++/13.1.1/bits/basic_ios.tcc \
  /usr/include/c++/13.1.1/bits/ostream.tcc /usr/include/c++/13.1.1/istream \
- /usr/include/c++/13.1.1/bits/istream.tcc \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Func.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/IO.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/LoopTypes.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Memory.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/ModifierTypes.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Namespaces.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Numbers.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Operators.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Pointers.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Preprocessor.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Rectangle.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/PaintCost.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Shapes.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/References.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/SignalHandling.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/StorageClass.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Streams.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Strings.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Structures.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Templates.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/basis/Triangle.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/add/add.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/mul/mul.h \
- /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/./src/sub/sub.h \
- /usr/include/c++/13.1.1/algorithm \
- /usr/include/c++/13.1.1/bits/stl_algo.h \
- /usr/include/c++/13.1.1/bits/algorithmfwd.h \
- /usr/include/c++/13.1.1/bits/stl_heap.h \
- /usr/include/c++/13.1.1/bits/uniform_int_dist.h \
- /usr/include/c++/13.1.1/bits/stl_tempbuf.h \
- /usr/include/c++/13.1.1/iterator \
- /usr/include/c++/13.1.1/bits/stream_iterator.h
+ /usr/include/c++/13.1.1/bits/istream.tcc

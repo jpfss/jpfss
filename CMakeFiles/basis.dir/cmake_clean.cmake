@@ -47,6 +47,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/basis.dir/src/basis/References.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/Shapes.cpp.o"
   "CMakeFiles/basis.dir/src/basis/Shapes.cpp.o.d"
+  "CMakeFiles/basis.dir/src/basis/SignalHandling.cpp.o"
+  "CMakeFiles/basis.dir/src/basis/SignalHandling.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/Stacks.cpp.o"
   "CMakeFiles/basis.dir/src/basis/Stacks.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/StorageClass.cpp.o"

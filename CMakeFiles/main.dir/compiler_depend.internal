@@ -200,6 +200,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o
  /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Numbers.h
  /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Operators.h
  /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Pointers.h
+ /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Preprocessor.h
  /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Rectangle.h
  /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/PaintCost.h
  /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Shapes.h
@@ -213,6 +214,12 @@ CMakeFiles/main.dir/src/main/main.cpp.o
  /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/add/add.h
  /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/mul/mul.h
  /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/sub/sub.h
+ /usr/include/c++/13.1.1/algorithm
+ /usr/include/c++/13.1.1/bits/stl_algo.h
+ /usr/include/c++/13.1.1/bits/algorithmfwd.h
+ /usr/include/c++/13.1.1/bits/stl_heap.h
+ /usr/include/c++/13.1.1/bits/uniform_int_dist.h
+ /usr/include/c++/13.1.1/bits/stl_tempbuf.h
  /usr/include/c++/13.1.1/iterator
  /usr/include/c++/13.1.1/bits/stream_iterator.h
 

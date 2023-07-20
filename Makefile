@@ -781,6 +781,30 @@ src/basis/Shapes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Shapes.cpp.s
 .PHONY : src/basis/Shapes.cpp.s
 
+src/basis/SignalHandling.o: src/basis/SignalHandling.cpp.o
+.PHONY : src/basis/SignalHandling.o
+
+# target to build an object file
+src/basis/SignalHandling.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/SignalHandling.cpp.o
+.PHONY : src/basis/SignalHandling.cpp.o
+
+src/basis/SignalHandling.i: src/basis/SignalHandling.cpp.i
+.PHONY : src/basis/SignalHandling.i
+
+# target to preprocess a source file
+src/basis/SignalHandling.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/SignalHandling.cpp.i
+.PHONY : src/basis/SignalHandling.cpp.i
+
+src/basis/SignalHandling.s: src/basis/SignalHandling.cpp.s
+.PHONY : src/basis/SignalHandling.s
+
+# target to generate assembly for a file
+src/basis/SignalHandling.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/SignalHandling.cpp.s
+.PHONY : src/basis/SignalHandling.cpp.s
+
 src/basis/Stacks.o: src/basis/Stacks.cpp.o
 .PHONY : src/basis/Stacks.o
 
@@ -1109,6 +1133,9 @@ help:
 	@echo "... src/basis/Shapes.o"
 	@echo "... src/basis/Shapes.i"
 	@echo "... src/basis/Shapes.s"
+	@echo "... src/basis/SignalHandling.o"
+	@echo "... src/basis/SignalHandling.i"
+	@echo "... src/basis/SignalHandling.s"
 	@echo "... src/basis/Stacks.o"
 	@echo "... src/basis/Stacks.i"
 	@echo "... src/basis/Stacks.s"

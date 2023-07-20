@@ -405,10 +405,24 @@ CMakeFiles/basis.dir/src/basis/Shapes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/basis.dir/src/basis/Shapes.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Shapes.cpp -o CMakeFiles/basis.dir/src/basis/Shapes.cpp.s
 
+CMakeFiles/basis.dir/src/basis/SignalHandling.cpp.o: CMakeFiles/basis.dir/flags.make
+CMakeFiles/basis.dir/src/basis/SignalHandling.cpp.o: src/basis/SignalHandling.cpp
+CMakeFiles/basis.dir/src/basis/SignalHandling.cpp.o: CMakeFiles/basis.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/basis.dir/src/basis/SignalHandling.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/basis.dir/src/basis/SignalHandling.cpp.o -MF CMakeFiles/basis.dir/src/basis/SignalHandling.cpp.o.d -o CMakeFiles/basis.dir/src/basis/SignalHandling.cpp.o -c /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/SignalHandling.cpp
+
+CMakeFiles/basis.dir/src/basis/SignalHandling.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/basis.dir/src/basis/SignalHandling.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/SignalHandling.cpp > CMakeFiles/basis.dir/src/basis/SignalHandling.cpp.i
+
+CMakeFiles/basis.dir/src/basis/SignalHandling.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/basis.dir/src/basis/SignalHandling.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/SignalHandling.cpp -o CMakeFiles/basis.dir/src/basis/SignalHandling.cpp.s
+
 CMakeFiles/basis.dir/src/basis/Stacks.cpp.o: CMakeFiles/basis.dir/flags.make
 CMakeFiles/basis.dir/src/basis/Stacks.cpp.o: src/basis/Stacks.cpp
 CMakeFiles/basis.dir/src/basis/Stacks.cpp.o: CMakeFiles/basis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/basis.dir/src/basis/Stacks.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/basis.dir/src/basis/Stacks.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/basis.dir/src/basis/Stacks.cpp.o -MF CMakeFiles/basis.dir/src/basis/Stacks.cpp.o.d -o CMakeFiles/basis.dir/src/basis/Stacks.cpp.o -c /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Stacks.cpp
 
 CMakeFiles/basis.dir/src/basis/Stacks.cpp.i: cmake_force
@@ -422,7 +436,7 @@ CMakeFiles/basis.dir/src/basis/Stacks.cpp.s: cmake_force
 CMakeFiles/basis.dir/src/basis/StorageClass.cpp.o: CMakeFiles/basis.dir/flags.make
 CMakeFiles/basis.dir/src/basis/StorageClass.cpp.o: src/basis/StorageClass.cpp
 CMakeFiles/basis.dir/src/basis/StorageClass.cpp.o: CMakeFiles/basis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/basis.dir/src/basis/StorageClass.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/basis.dir/src/basis/StorageClass.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/basis.dir/src/basis/StorageClass.cpp.o -MF CMakeFiles/basis.dir/src/basis/StorageClass.cpp.o.d -o CMakeFiles/basis.dir/src/basis/StorageClass.cpp.o -c /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/StorageClass.cpp
 
 CMakeFiles/basis.dir/src/basis/StorageClass.cpp.i: cmake_force
@@ -436,7 +450,7 @@ CMakeFiles/basis.dir/src/basis/StorageClass.cpp.s: cmake_force
 CMakeFiles/basis.dir/src/basis/Streams.cpp.o: CMakeFiles/basis.dir/flags.make
 CMakeFiles/basis.dir/src/basis/Streams.cpp.o: src/basis/Streams.cpp
 CMakeFiles/basis.dir/src/basis/Streams.cpp.o: CMakeFiles/basis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/basis.dir/src/basis/Streams.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/basis.dir/src/basis/Streams.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/basis.dir/src/basis/Streams.cpp.o -MF CMakeFiles/basis.dir/src/basis/Streams.cpp.o.d -o CMakeFiles/basis.dir/src/basis/Streams.cpp.o -c /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Streams.cpp
 
 CMakeFiles/basis.dir/src/basis/Streams.cpp.i: cmake_force
@@ -450,7 +464,7 @@ CMakeFiles/basis.dir/src/basis/Streams.cpp.s: cmake_force
 CMakeFiles/basis.dir/src/basis/Strings.cpp.o: CMakeFiles/basis.dir/flags.make
 CMakeFiles/basis.dir/src/basis/Strings.cpp.o: src/basis/Strings.cpp
 CMakeFiles/basis.dir/src/basis/Strings.cpp.o: CMakeFiles/basis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/basis.dir/src/basis/Strings.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/basis.dir/src/basis/Strings.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/basis.dir/src/basis/Strings.cpp.o -MF CMakeFiles/basis.dir/src/basis/Strings.cpp.o.d -o CMakeFiles/basis.dir/src/basis/Strings.cpp.o -c /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Strings.cpp
 
 CMakeFiles/basis.dir/src/basis/Strings.cpp.i: cmake_force
@@ -464,7 +478,7 @@ CMakeFiles/basis.dir/src/basis/Strings.cpp.s: cmake_force
 CMakeFiles/basis.dir/src/basis/Structures.cpp.o: CMakeFiles/basis.dir/flags.make
 CMakeFiles/basis.dir/src/basis/Structures.cpp.o: src/basis/Structures.cpp
 CMakeFiles/basis.dir/src/basis/Structures.cpp.o: CMakeFiles/basis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/basis.dir/src/basis/Structures.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/basis.dir/src/basis/Structures.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/basis.dir/src/basis/Structures.cpp.o -MF CMakeFiles/basis.dir/src/basis/Structures.cpp.o.d -o CMakeFiles/basis.dir/src/basis/Structures.cpp.o -c /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Structures.cpp
 
 CMakeFiles/basis.dir/src/basis/Structures.cpp.i: cmake_force
@@ -478,7 +492,7 @@ CMakeFiles/basis.dir/src/basis/Structures.cpp.s: cmake_force
 CMakeFiles/basis.dir/src/basis/Templates.cpp.o: CMakeFiles/basis.dir/flags.make
 CMakeFiles/basis.dir/src/basis/Templates.cpp.o: src/basis/Templates.cpp
 CMakeFiles/basis.dir/src/basis/Templates.cpp.o: CMakeFiles/basis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/basis.dir/src/basis/Templates.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/basis.dir/src/basis/Templates.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/basis.dir/src/basis/Templates.cpp.o -MF CMakeFiles/basis.dir/src/basis/Templates.cpp.o.d -o CMakeFiles/basis.dir/src/basis/Templates.cpp.o -c /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Templates.cpp
 
 CMakeFiles/basis.dir/src/basis/Templates.cpp.i: cmake_force
@@ -492,7 +506,7 @@ CMakeFiles/basis.dir/src/basis/Templates.cpp.s: cmake_force
 CMakeFiles/basis.dir/src/basis/Triangle.cpp.o: CMakeFiles/basis.dir/flags.make
 CMakeFiles/basis.dir/src/basis/Triangle.cpp.o: src/basis/Triangle.cpp
 CMakeFiles/basis.dir/src/basis/Triangle.cpp.o: CMakeFiles/basis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/basis.dir/src/basis/Triangle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/basis.dir/src/basis/Triangle.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/basis.dir/src/basis/Triangle.cpp.o -MF CMakeFiles/basis.dir/src/basis/Triangle.cpp.o.d -o CMakeFiles/basis.dir/src/basis/Triangle.cpp.o -c /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/src/basis/Triangle.cpp
 
 CMakeFiles/basis.dir/src/basis/Triangle.cpp.i: cmake_force
@@ -529,6 +543,7 @@ basis_OBJECTS = \
 "CMakeFiles/basis.dir/src/basis/Rectangle.cpp.o" \
 "CMakeFiles/basis.dir/src/basis/References.cpp.o" \
 "CMakeFiles/basis.dir/src/basis/Shapes.cpp.o" \
+"CMakeFiles/basis.dir/src/basis/SignalHandling.cpp.o" \
 "CMakeFiles/basis.dir/src/basis/Stacks.cpp.o" \
 "CMakeFiles/basis.dir/src/basis/StorageClass.cpp.o" \
 "CMakeFiles/basis.dir/src/basis/Streams.cpp.o" \
@@ -564,6 +579,7 @@ lib/libbasis.so: CMakeFiles/basis.dir/src/basis/Preprocessor.cpp.o
 lib/libbasis.so: CMakeFiles/basis.dir/src/basis/Rectangle.cpp.o
 lib/libbasis.so: CMakeFiles/basis.dir/src/basis/References.cpp.o
 lib/libbasis.so: CMakeFiles/basis.dir/src/basis/Shapes.cpp.o
+lib/libbasis.so: CMakeFiles/basis.dir/src/basis/SignalHandling.cpp.o
 lib/libbasis.so: CMakeFiles/basis.dir/src/basis/Stacks.cpp.o
 lib/libbasis.so: CMakeFiles/basis.dir/src/basis/StorageClass.cpp.o
 lib/libbasis.so: CMakeFiles/basis.dir/src/basis/Streams.cpp.o
@@ -573,7 +589,7 @@ lib/libbasis.so: CMakeFiles/basis.dir/src/basis/Templates.cpp.o
 lib/libbasis.so: CMakeFiles/basis.dir/src/basis/Triangle.cpp.o
 lib/libbasis.so: CMakeFiles/basis.dir/build.make
 lib/libbasis.so: CMakeFiles/basis.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX shared library lib/libbasis.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jpfss/Work/Project/Learns/Cpp/learning-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking CXX shared library lib/libbasis.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/basis.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
