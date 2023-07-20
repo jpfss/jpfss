@@ -685,6 +685,30 @@ src/basis/Pointers.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Pointers.cpp.s
 .PHONY : src/basis/Pointers.cpp.s
 
+src/basis/Preprocessor.o: src/basis/Preprocessor.cpp.o
+.PHONY : src/basis/Preprocessor.o
+
+# target to build an object file
+src/basis/Preprocessor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Preprocessor.cpp.o
+.PHONY : src/basis/Preprocessor.cpp.o
+
+src/basis/Preprocessor.i: src/basis/Preprocessor.cpp.i
+.PHONY : src/basis/Preprocessor.i
+
+# target to preprocess a source file
+src/basis/Preprocessor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Preprocessor.cpp.i
+.PHONY : src/basis/Preprocessor.cpp.i
+
+src/basis/Preprocessor.s: src/basis/Preprocessor.cpp.s
+.PHONY : src/basis/Preprocessor.s
+
+# target to generate assembly for a file
+src/basis/Preprocessor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/src/basis/Preprocessor.cpp.s
+.PHONY : src/basis/Preprocessor.cpp.s
+
 src/basis/Rectangle.o: src/basis/Rectangle.cpp.o
 .PHONY : src/basis/Rectangle.o
 
@@ -1073,6 +1097,9 @@ help:
 	@echo "... src/basis/Pointers.o"
 	@echo "... src/basis/Pointers.i"
 	@echo "... src/basis/Pointers.s"
+	@echo "... src/basis/Preprocessor.o"
+	@echo "... src/basis/Preprocessor.i"
+	@echo "... src/basis/Preprocessor.s"
 	@echo "... src/basis/Rectangle.o"
 	@echo "... src/basis/Rectangle.i"
 	@echo "... src/basis/Rectangle.s"

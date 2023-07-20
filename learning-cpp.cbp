@@ -327,6 +327,8 @@
 		<Unit filename="src/basis/PaintCost.h" />
 		<Unit filename="src/basis/Pointers.cpp" />
 		<Unit filename="src/basis/Pointers.h" />
+		<Unit filename="src/basis/Preprocessor.cpp" />
+		<Unit filename="src/basis/Preprocessor.h" />
 		<Unit filename="src/basis/Rectangle.cpp" />
 		<Unit filename="src/basis/Rectangle.h" />
 		<Unit filename="src/basis/References.cpp" />

@@ -17,6 +17,7 @@
 #include "Numbers.h"
 #include "Operators.h"
 #include "Pointers.h"
+#include "Preprocessor.h"
 #include "Rectangle.h"
 #include "References.h"
 #include "StorageClass.h"
@@ -28,6 +29,7 @@
 #include "add.h"
 #include "mul.h"
 #include "sub.h"
+#include <algorithm>
 #include <iostream>
 #include <iterator>
 using namespace std;
@@ -123,5 +125,8 @@ int main() {
 
   Templates templates;
   templates.go();
+
+  Preprocessor preprocessor;
+  preprocessor.go();
   return 0;
 }

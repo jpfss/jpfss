@@ -39,6 +39,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/basis.dir/src/basis/PaintCost.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/Pointers.cpp.o"
   "CMakeFiles/basis.dir/src/basis/Pointers.cpp.o.d"
+  "CMakeFiles/basis.dir/src/basis/Preprocessor.cpp.o"
+  "CMakeFiles/basis.dir/src/basis/Preprocessor.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/Rectangle.cpp.o"
   "CMakeFiles/basis.dir/src/basis/Rectangle.cpp.o.d"
   "CMakeFiles/basis.dir/src/basis/References.cpp.o"

@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/lib/libsub.a CMakeFiles/sub.dir/src/sub/sub.cpp.o
-/usr/bin/ranlib /home/jpfss/Work/Project/Learns/Cpp/learning-cpp/lib/libsub.a
