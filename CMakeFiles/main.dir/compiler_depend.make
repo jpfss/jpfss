@@ -193,6 +193,7 @@ CMakeFiles/main.dir/src/main/main.cpp.o: src/main/main.cpp \
   src/basis/Func.h \
   src/basis/IO.h \
   src/basis/LoopTypes.h \
+  src/basis/Memory.h \
   src/basis/ModifierTypes.h \
   src/basis/Numbers.h \
   src/basis/Operators.h \
@@ -376,6 +377,8 @@ src/basis/Encapsulation.h:
 /usr/include/bits/types/struct_tm.h:
 
 src/basis/Datatype.h:
+
+src/basis/Memory.h:
 
 /usr/include/bits/types.h:
 

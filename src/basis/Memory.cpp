@@ -14,6 +14,7 @@ Memory::~Memory() {
 
 Memory::Memory(const Memory &other) {
   // copy ctor
+  cout << "Constructor called!" << endl;
 }
 
 Memory &Memory::operator=(const Memory &rhs) {
