@@ -11,6 +11,7 @@ public:
   Triangle(const int, const int);
   void go();
   int area();
+  int getArea();
 
 protected:
 private:

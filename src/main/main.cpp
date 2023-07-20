@@ -95,6 +95,7 @@ int main() {
 
   Rectangle rectangle;
   rectangle.go();
+
   Box box;
   box.go();
 

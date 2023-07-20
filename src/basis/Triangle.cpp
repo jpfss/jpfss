@@ -37,9 +37,16 @@ void Triangle::go() {
 
   // call triangle area.
   shape->area();
+
+  Triangle triangle;
+  triangle.setWidth(5);
+  triangle.setHeight(7);
+  // Print the area of the object.
+  cout << "Total Triangle area: " << triangle.getArea() << endl;
 }
 
 int Triangle::area() {
   cout << "Triangle class area :" << (width * height) / 2 << endl;
   return (width * height / 2);
 }
+int Triangle::getArea() { return (width * height) / 2; }
