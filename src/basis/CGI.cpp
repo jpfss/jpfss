@@ -35,7 +35,8 @@ void CGI::go() {
 
   cout << "++++++++++++++++++++++++++CPP's CGI++++++++++++++++++++++++++"
        << endl;
-  // First CGI Program
+  // The current version is CGI/1.1 and CGI/1.2 is under progress
+  //  First CGI Program
   cout << "Content-type:text/html\r\n\r\n";
   cout << "<html>\n";
   cout << "<head>\n";
