@@ -129,4 +129,39 @@ CMakeFiles/basis.dir/src/basis/CGI.cpp.o: \
  /usr/include/c++/13.1.1/bits/locale_facets.tcc \
  /usr/include/c++/13.1.1/bits/basic_ios.tcc \
  /usr/include/c++/13.1.1/bits/ostream.tcc /usr/include/c++/13.1.1/istream \
- /usr/include/c++/13.1.1/bits/istream.tcc
+ /usr/include/c++/13.1.1/bits/istream.tcc \
+ /usr/include/c++/13.1.1/stdlib.h /usr/include/c++/13.1.1/vector \
+ /usr/include/c++/13.1.1/bits/stl_uninitialized.h \
+ /usr/include/c++/13.1.1/bits/stl_vector.h \
+ /usr/include/c++/13.1.1/bits/stl_bvector.h \
+ /usr/include/c++/13.1.1/bits/vector.tcc \
+ /usr/local/include/cgicc/CgiDefs.h /usr/local/include/cgicc/Cgicc.h \
+ /usr/local/include/cgicc/CgiDefs.h /usr/local/include/cgicc/FormEntry.h \
+ /usr/include/c++/13.1.1/climits \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/limits.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/uio_lim.h /usr/include/c++/13.1.1/cfloat \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include/float.h \
+ /usr/local/include/cgicc/CgiUtils.h /usr/include/c++/13.1.1/fstream \
+ /usr/include/c++/13.1.1/bits/codecvt.h \
+ /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++io.h \
+ /usr/include/c++/13.1.1/bits/fstream.tcc \
+ /usr/local/include/cgicc/FormFile.h /usr/local/include/cgicc/CgiInput.h \
+ /usr/local/include/cgicc/CgiEnvironment.h \
+ /usr/local/include/cgicc/HTTPCookie.h \
+ /usr/local/include/cgicc/MStreamable.h \
+ /usr/local/include/cgicc/HTMLClasses.h \
+ /usr/local/include/cgicc/HTMLAtomicElement.h \
+ /usr/local/include/cgicc/HTMLElement.h \
+ /usr/local/include/cgicc/HTMLAttributeList.h \
+ /usr/local/include/cgicc/HTMLAttribute.h \
+ /usr/local/include/cgicc/HTMLBooleanElement.h \
+ /usr/local/include/cgicc/HTMLElement.h \
+ /usr/local/include/cgicc/HTMLDoctype.h \
+ /usr/local/include/cgicc/HTTPHTMLHeader.h \
+ /usr/local/include/cgicc/HTTPContentHeader.h \
+ /usr/local/include/cgicc/HTTPHeader.h

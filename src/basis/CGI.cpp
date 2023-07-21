@@ -102,7 +102,7 @@ void CGI::go() {
   cout << "</html>\n";
 
   // Simple FORM Example: GET Method
-  Cgicc formData;
+  // Cgicc formData;
   bool maths_flag, physics_flag;
 
   cout << "Content-type:text/html\r\n\r\n";
@@ -132,7 +132,7 @@ void CGI::go() {
   cout << "</html>\n";
 
   // Passing Radio Button Data to CGI program
-  Cgicc formData;
+  // Cgicc formData;
 
   cout << "Content-type:text/html\r\n\r\n";
   cout << "<html>\n";
@@ -141,7 +141,7 @@ void CGI::go() {
   cout << "</head>\n";
   cout << "<body>\n";
 
-  form_iterator fi = formData.getElement("subject");
+  // form_iterator fi = formData.getElement("subject");
   if (!fi->isEmpty() && fi != (*formData).end()) {
     cout << "Radio box selected: " << **fi << endl;
   }
@@ -151,7 +151,7 @@ void CGI::go() {
   cout << "</html>\n";
 
   // Passing Text Area Data to CGI Program
-  cgicc formData;
+  // cgicc formData;
 
   cout << "Content-type:text/html\r\n\r\n";
   cout << "<html>\n";
@@ -160,7 +160,7 @@ void CGI::go() {
   cout << "</head>\n";
   cout << "<body>\n";
 
-  form_iterator fi = formData.getElement("textcontent");
+  // form_iterator fi = formData.getElement("textcontent");
   if (!fi->isEmpty() && fi != (*formData).end()) {
     cout << "Text Content: " << **fi << endl;
   } else {
@@ -172,7 +172,7 @@ void CGI::go() {
   cout << "</html>\n";
 
   // Passing Drop down Box Data to CGI Program
-  Cgicc formData;
+  // Cgicc formData;
 
   cout << "Content-type:text/html\r\n\r\n";
   cout << "<html>\n";
@@ -181,7 +181,7 @@ void CGI::go() {
   cout << "</head>\n";
   cout << "<body>\n";
 
-  form_iterator fi = formData.getElement("dropdown");
+  // form_iterator fi = formData.getElement("dropdown");
   if (!fi->isEmpty() && fi != (*formData).end()) {
     cout << "Value Selected: " << **fi << endl;
   }
@@ -237,7 +237,7 @@ void CGI::go() {
   cout << "</html>\n";
 
   // File Upload Example
-  Cgicc cgi;
+  // Cgicc cgi;
 
   cout << "Content-type:text/html\r\n\r\n";
   cout << "<html>\n";
